@@ -82,7 +82,7 @@ A **production-grade MLOps platform** featuring 3 end-to-end ML projects with:
 | **Tracking** | Centralized MLflow server with 9+ experiments |
 | **Testing** | 79-97% coverage with Pytest |
 
-<div align="center">
+<div align="center"> 
 
 #### Projects Inside:
 | Project | Type | Metrics |
