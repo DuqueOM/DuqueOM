@@ -87,11 +87,11 @@ A **production-grade MLOps platform** featuring 3 end-to-end ML projects with:
 | 🚗 **CarVision Intelligence** | Regression | R²: 0.77 \| 97% coverage |
 | 📱 **TelecomAI** | Classification | AUC: 0.84 \| 97% coverage |
 
-<div align="center">
-
 ---
 
-![Portfolio Demo](portfolio-demo.gif)
+<div align="center">
+  <img src="portfolio-demo.gif" width="70%">
+</div>
 
 ---
 
