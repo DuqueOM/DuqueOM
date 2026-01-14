@@ -70,6 +70,8 @@ I'm a **self-taught MLOps Engineer** based in Mexico City, transitioning from 14
 
 </div>
 
+<div align="center">
+
 A **production-grade MLOps platform** featuring 3 end-to-end ML projects with:
 
 | Component | Details |
@@ -80,6 +82,8 @@ A **production-grade MLOps platform** featuring 3 end-to-end ML projects with:
 | **Tracking** | Centralized MLflow server with 9+ experiments |
 | **Testing** | 79-97% coverage with Pytest |
 
+<div align="center">
+
 #### Projects Inside:
 | Project | Type | Metrics |
 |---------|------|---------|
@@ -87,6 +91,7 @@ A **production-grade MLOps platform** featuring 3 end-to-end ML projects with:
 | 🚗 **CarVision Intelligence** | Regression | R²: 0.77 \| 97% coverage |
 | 📱 **TelecomAI** | Classification | AUC: 0.84 \| 97% coverage |
 
+</div>
 
 <div align="center">
   <img src="portfolio-demo.gif" width="70%">
