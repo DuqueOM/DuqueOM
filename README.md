@@ -12,6 +12,8 @@
 
 ---
 
+<div align="center">
+
 ## 🎯 About Me
 
 I'm a **self-taught MLOps Engineer** based in Mexico City, transitioning from 14 years in operations leadership to cloud-native engineering. I don't just train models—I build the **infrastructure that makes them production-ready**.
@@ -23,6 +25,8 @@ I'm a **self-taught MLOps Engineer** based in Mexico City, transitioning from 14
 - 🗣️ **Languages:** Spanish (Native) | English (B2)
 
 ---
+
+<div align="center">
 
 ## 🛠️ Tech Stack
 
