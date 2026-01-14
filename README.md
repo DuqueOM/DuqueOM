@@ -59,6 +59,8 @@ I'm a **self-taught MLOps Engineer** based in Mexico City, transitioning from 14
 
 ## 🚀 Featured Project
 
+<div align="center">
+
 ### [ML-MLOps-Portfolio](https://github.com/DuqueOM/ML-MLOps-Portfolio) — Production-Ready Monorepo
 
 <div align="center">
