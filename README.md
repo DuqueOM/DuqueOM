@@ -101,10 +101,16 @@ A **production-grade MLOps platform** featuring 3 end-to-end ML projects with:
 | 🚗 **CarVision Intelligence** | Regression | R²: 0.77 \| 97% coverage |
 | 📱 **TelecomAI** | Classification | AUC: 0.84 \| 97% coverage |
 
-</div>
+<br>
 
 <div align="center">
-  <img src="portfolio-demo.gif" width="70%">
+  <a href="https://youtu.be/qmw9VlgUcn8">
+    <img src="https://github.com/DuqueOM/ML-MLOps-Portfolio/blob/main/media/gifs/portfolio-demo.gif?raw=true" width="100%" alt="MLOps Portfolio Demo" style="border-radius: 10px; box-shadow: 0px 4px 12px rgba(0,0,0,0.1);">
+  </a>
+  <br>
+  <em>👆 Click the GIF to watch the full explanation on YouTube</em>
+</div>
+
 </div>
 
 ---
