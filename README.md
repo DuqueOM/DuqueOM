@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hey, I'm Wberto Duque 👋
+# Hey, I'm Duque Ortega Mutis 👋
 
 **Junior MLOps Engineer** | Building Production-Ready ML Systems
 
@@ -93,11 +93,7 @@ A **production-grade MLOps platform** featuring 3 end-to-end ML projects with:
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DuqueOM&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=DuqueOM&layout=compact&theme=tokyonight&hide_border=true)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=DuqueOM&theme=tokyonight&hide_border=true)
+[![GitHub Metrics](https://github.com/DuqueOM/DuqueOM/blob/main/github-metrics.svg)](https://github.com/DuqueOM/DuqueOM/actions/workflows/profile-metrics.yml)
 
 </div>
 
