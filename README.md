@@ -16,6 +16,8 @@
 
 ## 🎯 About Me
 
+</div>
+
 I'm a **self-taught MLOps Engineer** based in Mexico City, transitioning from 14 years in operations leadership to cloud-native engineering. I don't just train models—I build the **infrastructure that makes them production-ready**.
 
 - 🔭 Currently completing **TripleTen's Data Science Bootcamp** (graduating March 2026)
