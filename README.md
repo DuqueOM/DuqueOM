@@ -5,6 +5,7 @@
 **Junior MLOps Engineer** | Building Production-Ready ML Systems
 
 [![Portfolio](https://img.shields.io/badge/🚀_Portfolio-Live_Demo-blue?style=for-the-badge)](https://duqueom.github.io/ML-MLOps-Portfolio/)
+[![GitHub](https://img.shields.io/badge/📁_Portfolio-Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/DuqueOM)
 [![YouTube](https://img.shields.io/badge/YouTube-Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/qmw9VlgUcn8)
 
