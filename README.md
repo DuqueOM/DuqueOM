@@ -43,7 +43,7 @@ I'm a **self-taught MLOps Engineer** based in Mexico City, transitioning from 14
 [![DVC](https://img.shields.io/badge/DVC-945DD6?style=flat-square&logo=dvc&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/blob/main/BankChurn-Predictor/dvc.yaml)
 
 ### Cloud & Monitoring
-[![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/blob/main/infra/terraform/main.tf)
+[![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/infra)
 [![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/blob/main/docs/OPERATIONS_PORTFOLIO.md)
 [![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/blob/main/docs/OPERATIONS_PORTFOLIO.md)
 
