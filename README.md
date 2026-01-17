@@ -134,7 +134,8 @@ A **production-grade MLOps platform** featuring 3 end-to-end ML projects with:
 |---|---|
 | 📧 **Email** | [DuqueOrtegaMutis@gmail.com](mailto:DuqueOrtegaMutis@gmail.com) |
 | 💼 **LinkedIn** | [linkedin.com/in/DuqueOM](https://linkedin.com/in/DuqueOM) |
-| 🌐 **Portfolio** | [duqueom.github.io/ML-MLOps-Portfolio](https://duqueom.github.io/ML-MLOps-Portfolio/) |
+| 🌐 **Portfolio Live Demo** | [duqueom.github.io/ML-MLOps-Portfolio](https://duqueom.github.io/ML-MLOps-Portfolio/) |
+| 🛠️ **Portfolio GitHub** | [duqueom.github.io/ML-MLOps-Portfolio](https://github.com/DuqueOM/ML-MLOps-Portfolio) |
 | 📺 **Demo Video** | [Watch on YouTube](https://youtu.be/qmw9VlgUcn8) |
 
 </div>
