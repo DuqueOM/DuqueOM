@@ -19,7 +19,7 @@
 
 </div>
 
-I'm a **self-taught MLOps Engineer** based in Mexico City, transitioning from 14 years in operations leadership to cloud-native engineering. I don't just train models—I build the **infrastructure that makes them production-ready**.
+I'm a **MLOps Engineer** based in Mexico City, transitioning from 14 years in operations leadership to building cloud-native ML systems. I don't just train models—I build the **infrastructure that makes them production-ready**.
 
 - 🔭 Currently completing **TripleTen's Data Science Bootcamp** (graduating March 2026)
 - 🌱 Preparing for **AWS Solutions Architect Associate** certification
@@ -32,6 +32,8 @@ I'm a **self-taught MLOps Engineer** based in Mexico City, transitioning from 14
 <div align="center">
 
 ## 🛠️ Tech Stack
+
+</div>
 
 <div align="center">
 
@@ -51,7 +53,7 @@ I'm a **self-taught MLOps Engineer** based in Mexico City, transitioning from 14
 ### ML & Backend
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/blob/main/BankChurn-Predictor/pyproject.toml)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/blob/main/BankChurn-Predictor/app/fastapi_app.py)
-[![Scikit--learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/blob/main/BankChurn-Predictor/pyproject.toml)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/blob/main/BankChurn-Predictor/pyproject.toml)
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/blob/main/BankChurn-Predictor/pyproject.toml)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/blob/main/CarVision-Market-Intelligence/app/streamlit_app.py)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
@@ -93,7 +95,7 @@ A **production-grade MLOps platform** featuring 3 end-to-end ML projects with:
 | **Tracking** | Centralized MLflow server with 9+ experiments |
 | **Testing** | 79-97% coverage with Pytest |
 
-<div align="center"> 
+<div align="center">
 
 #### Projects Inside:
 | Project | Type | Metrics |
@@ -114,13 +116,19 @@ A **production-grade MLOps platform** featuring 3 end-to-end ML projects with:
 
 </div>
 
+</div>
+
+</div>
+
 ---
 
 ## 📊 GitHub Stats
 
 <div align="center">
 
-[![GitHub Metrics](https://github.com/DuqueOM/DuqueOM/blob/main/github-metrics.svg)](https://github.com/DuqueOM/DuqueOM/actions/workflows/profile-metrics.yml)
+![DuqueOM's GitHub Stats](https://github-readme-stats.vercel.app/api?username=DuqueOM&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=DuqueOM&layout=compact&theme=dark&hide_border=true&langs_count=8)
 
 </div>
 
@@ -134,8 +142,8 @@ A **production-grade MLOps platform** featuring 3 end-to-end ML projects with:
 |---|---|
 | 📧 **Email** | [DuqueOrtegaMutis@gmail.com](mailto:DuqueOrtegaMutis@gmail.com) |
 | 💼 **LinkedIn** | [linkedin.com/in/DuqueOM](https://linkedin.com/in/DuqueOM) |
-| 🌐 **Portfolio Live Demo** | [duqueom.github.io/ML-MLOps-Portfolio](https://duqueom.github.io/ML-MLOps-Portfolio/) |
-| 🛠️ **Portfolio GitHub** | [duqueom.github.io/ML-MLOps-Portfolio](https://github.com/DuqueOM/ML-MLOps-Portfolio) |
+| 🌐 **Portfolio Site** | [duqueom.github.io/ML-MLOps-Portfolio](https://duqueom.github.io/ML-MLOps-Portfolio/) |
+| 🛠️ **Portfolio GitHub** | [github.com/DuqueOM/ML-MLOps-Portfolio](https://github.com/DuqueOM/ML-MLOps-Portfolio) |
 | 📺 **Demo Video** | [Watch on YouTube](https://youtu.be/qmw9VlgUcn8) |
 
 </div>
