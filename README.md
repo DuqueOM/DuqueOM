@@ -36,7 +36,7 @@ I'm a **MLOps Engineer** based in Mexico City, transitioning from 14 years in hi
 |----------|----------|
 | **Production-Ready Mindset** | I don't just write notebooks—I build reproducible pipelines with GitHub Actions, Docker, and Kubernetes |
 | **Infrastructure Skills** | AWS resource provisioning with Terraform (EKS, VPC, RDS, S3, ECR with lifecycle policies) |
-| **Testing & Reliability** | 88-94% test coverage with Pytest, security scanning with Trivy/Bandit/Gitleaks |
+| **Testing & Reliability** | 86-96% test coverage with Pytest, security scanning with Trivy/Bandit/Gitleaks |
 | **Operational Discipline** | 14 years managing high-pressure operations → systems thinking, reliability focus |
 
 ---
@@ -105,16 +105,16 @@ A **production-grade MLOps platform** featuring 3 end-to-end ML projects with:
 | **Infrastructure** | Terraform modules for AWS EKS, S3, RDS, ECR |
 | **Orchestration** | Kubernetes manifests with HPA, health probes, rolling updates |
 | **Tracking** | Centralized MLflow server with 9+ experiments |
-| **Testing** | 79-97% coverage with Pytest |
+| **Testing** | 86-96% coverage with Pytest |
 
 <div align="center">
 
 #### Projects Inside:
 | Project | Type | Metrics | Highlights |
 |---------|------|---------|------------|
-| 🏦 **BankChurn Predictor** | Classification | AUC: 0.853 \| F1: 0.604 | SHAP explainability, drift detection, 79% coverage |
-| 🚗 **CarVision Intelligence** | Regression | R²: 0.766 \| RMSE: $4,794 | Interactive Streamlit dashboard (4 tabs), 97% coverage |
-| 📱 **TelecomAI** | Classification | AUC: 0.84 \| Acc: 82% | VotingClassifier ensemble, threshold tuning, 97% coverage |
+| 🏦 **BankChurn Predictor** | Classification | AUC: 0.853 \| F1: 0.604 | SHAP explainability, drift detection, 86% coverage |
+| 🚗 **CarVision Intelligence** | Regression | R²: 0.766 \| RMSE: $4,794 | Interactive Streamlit dashboard (4 tabs), 94% coverage |
+| 📱 **TelecomAI** | Classification | AUC: 0.84 \| Acc: 82% | VotingClassifier ensemble, threshold tuning, 96% coverage |
 
 <br>
 
