@@ -36,7 +36,7 @@ I'm a **MLOps Engineer** based in Mexico City, transitioning from 14 years in hi
 |----------|----------|
 | **Production-Ready Mindset** | I don't just write notebooks—I build reproducible pipelines with GitHub Actions, Docker, and Kubernetes |
 | **Infrastructure Skills** | AWS resource provisioning with Terraform (EKS, VPC, RDS, S3, ECR with lifecycle policies) |
-| **Testing & Reliability** | 79-97% test coverage with Pytest, security scanning with Trivy/Bandit/Gitleaks |
+| **Testing & Reliability** | 88-94% test coverage with Pytest, security scanning with Trivy/Bandit/Gitleaks |
 | **Operational Discipline** | 14 years managing high-pressure operations → systems thinking, reliability focus |
 
 ---
