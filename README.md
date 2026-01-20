@@ -24,7 +24,7 @@ I'm a **MLOps Engineer** based in Mexico City, transitioning from 14 years in hi
 > *"I don't just write notebooks. I build reproducible pipelines using GitHub Actions, Docker, and Kubernetes, ensuring that every commit is tested and secure."*
 
 - 🎓 **TripleTen Data Science Professional Program** (graduating March 2026)
-- 📜 Preparing for **AWS Solutions Architect Associate** certification
+- 📜 **AWS Solutions Architect Associate** certification
 - 💼 Open to **Junior MLOps / ML Engineer** opportunities (Remote/Hybrid)
 - ⚡ **Availability:** Immediate
 - 🌎 **Work Authorization:** Temporary Resident (Mexico)
