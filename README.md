@@ -80,46 +80,6 @@ I'm a **MLOps Engineer** based in Mexico City, transitioning from 14 years in hi
 
 ---
 
-## 📊 Skills Proficiency
-
-<div align="center">
-
-### Infrastructure as Code
-![Terraform](https://img.shields.io/badge/Terraform_(AWS:_EKS,_VPC,_RDS,_S3)-90%25-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker_(Multi--stage,_optimization)-80%25-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes_(Manifests,_HPA,_probes)-75%25-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS_Services_(EC2,_Lambda,_CloudWatch)-65%25-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-
-### CI/CD & Automation
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions_(Matrix,_workflows)-90%25-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest_(Unit,_integration_testing)-85%25-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
-![Security](https://img.shields.io/badge/Security_Scanning_(Bandit,_Trivy)-75%25-00C853?style=for-the-badge&logo=security&logoColor=white)
-
-### Observability & Monitoring
-![Prometheus](https://img.shields.io/badge/Prometheus_(Metrics_collection)-85%25-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana_(Dashboards,_alerts)-88%25-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![Logging](https://img.shields.io/badge/Structured_Logging_(JSON_logs)-80%25-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-
-### ML & MLOps
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn_(Pipelines,_ensembles)-90%25-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow_(Experiment_tracking)-85%25-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
-![DVC](https://img.shields.io/badge/DVC_(Data_versioning)-80%25-945DD6?style=for-the-badge&logo=dvc&logoColor=white)
-![SHAP](https://img.shields.io/badge/SHAP_(Explainability)-60%25-FF6F61?style=for-the-badge)
-
-### Programming & APIs
-![Python](https://img.shields.io/badge/Python_(FastAPI,_Pydantic,_async)-95%25-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs_(OpenAPI,_Swagger)-85%25-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit_(Interactive_dashboards)-75%25-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-
-<br>
-
-**📈 Currently Learning:** Kubeflow, Airflow, Feature Stores  
-**🎓 Certification in Progress:** AWS Solutions Architect Associate
-
-</div>
-
----
-
 ## 🚀 Featured Project
 
 <div align="center">
