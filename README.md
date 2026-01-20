@@ -19,13 +19,25 @@
 
 </div>
 
-I'm a **MLOps Engineer** based in Mexico City, transitioning from 14 years in operations leadership to building cloud-native ML systems. I don't just train models—I build the **infrastructure that makes them production-ready**.
+I'm a **MLOps Engineer** based in Mexico City, transitioning from 14 years in high-pressure operations to building cloud-native ML systems. My background taught me that **production systems must remain reliable under pressure**, that clear communication prevents costly failures, and that consistency beats short-term heroics.
 
-- 🔭 Currently completing **TripleTen's Data Science Bootcamp** (graduating March 2026)
-- 🌱 Preparing for **AWS Solutions Architect Associate** certification
-- 💼 Open to **remote Junior MLOps / ML Engineer** opportunities
+> *"I don't just write notebooks. I build reproducible pipelines using GitHub Actions, Docker, and Kubernetes, ensuring that every commit is tested and secure."*
+
+- 🎓 **TripleTen Data Science Professional Program** (graduating March 2026)
+- 📜 Preparing for **AWS Solutions Architect Associate** certification
+- 💼 Open to **Junior MLOps / ML Engineer** opportunities (Remote/Hybrid)
+- ⚡ **Availability:** Immediate
 - 🌎 **Work Authorization:** Temporary Resident (Mexico)
 - 🗣️ **Languages:** Spanish (Native) | English (B2)
+
+### 💡 What I Bring to Your Team
+
+| Strength | Evidence |
+|----------|----------|
+| **Production-Ready Mindset** | I don't just write notebooks—I build reproducible pipelines with GitHub Actions, Docker, and Kubernetes |
+| **Infrastructure Skills** | AWS resource provisioning with Terraform (EKS, VPC, RDS, S3, ECR with lifecycle policies) |
+| **Testing & Reliability** | 79-97% test coverage with Pytest, security scanning with Trivy/Bandit/Gitleaks |
+| **Operational Discipline** | 14 years managing high-pressure operations → systems thinking, reliability focus |
 
 ---
 
@@ -98,11 +110,11 @@ A **production-grade MLOps platform** featuring 3 end-to-end ML projects with:
 <div align="center">
 
 #### Projects Inside:
-| Project | Type | Metrics |
-|---------|------|---------|
-| 🏦 **BankChurn Predictor** | Classification | AUC: 0.87 \| <50ms latency |
-| 🚗 **CarVision Intelligence** | Regression | R²: 0.77 \| 97% coverage |
-| 📱 **TelecomAI** | Classification | AUC: 0.84 \| 97% coverage |
+| Project | Type | Metrics | Highlights |
+|---------|------|---------|------------|
+| 🏦 **BankChurn Predictor** | Classification | AUC: 0.853 \| F1: 0.604 | SHAP explainability, drift detection, 79% coverage |
+| 🚗 **CarVision Intelligence** | Regression | R²: 0.766 \| RMSE: $4,794 | Interactive Streamlit dashboard (4 tabs), 97% coverage |
+| 📱 **TelecomAI** | Classification | AUC: 0.84 \| Acc: 82% | VotingClassifier ensemble, threshold tuning, 97% coverage |
 
 <br>
 
@@ -141,10 +153,12 @@ A **production-grade MLOps platform** featuring 3 end-to-end ML projects with:
 | | |
 |---|---|
 | 📧 **Email** | [DuqueOrtegaMutis@gmail.com](mailto:DuqueOrtegaMutis@gmail.com) |
+| 📱 **Phone** | +52 56 1688 2440 |
 | 💼 **LinkedIn** | [linkedin.com/in/DuqueOM](https://linkedin.com/in/DuqueOM) |
 | 🌐 **Portfolio Site** | [duqueom.github.io/ML-MLOps-Portfolio](https://duqueom.github.io/ML-MLOps-Portfolio/) |
-| 🛠️ **Portfolio GitHub** | [github.com/DuqueOM/ML-MLOps-Portfolio](https://github.com/DuqueOM/ML-MLOps-Portfolio) |
+| 🛠️ **Portfolio Repo** | [github.com/DuqueOM/ML-MLOps-Portfolio](https://github.com/DuqueOM/ML-MLOps-Portfolio) |
 | 📺 **Demo Video** | [Watch on YouTube](https://youtu.be/qmw9VlgUcn8) |
+| 📍 **Location** | Mexico City, Mexico |
 
 </div>
 
