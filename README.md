@@ -155,14 +155,14 @@ Full-stack AI platform that transforms restaurant competitive analysis from **$5
 <div align="center">
 
 <a href="https://github.com/DuqueOM">
-  <img src="https://github-readme-stats.vercel.app/api?username=DuqueOM&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&cache_seconds=86400" width="48%" alt="GitHub Stats">
+  <img src="https://github-readme-stats-zeta-seven-14.vercel.app/api?username=DuqueOM&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" width="48%" alt="GitHub Stats">
 </a>
 <a href="https://github.com/DuqueOM">
   <img src="https://streak-stats.demolab.com/?user=DuqueOM&theme=tokyonight&hide_border=true" width="48%" alt="GitHub Streak">
 </a>
 
 <a href="https://github.com/DuqueOM">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DuqueOM&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=86400" width="48%" alt="Top Languages">
+  <img src="https://github-readme-stats-zeta-seven-14.vercel.app/api/top-langs/?username=DuqueOM&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="48%" alt="Top Languages">
 </a>
 
 </div>
