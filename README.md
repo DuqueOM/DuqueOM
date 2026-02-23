@@ -28,7 +28,7 @@ ML Engineer based in Mexico City with 14 years of high-pressure operations exper
 |----------|----------|
 | **Production-Ready Mindset** | Reproducible pipelines with GitHub Actions, Docker, and Kubernetes — not just notebooks |
 | **Infrastructure as Code** | GCP production deployment with Terraform (GKE, VPC, Cloud SQL, GCS, Artifact Registry) + AWS Terraform IaC |
-| **Testing & Security** | 80%+ test coverage, security scanning (Trivy/Bandit/Gitleaks/pip-audit) |
+| **Testing & Security** | 85-91% test coverage ([Codecov verified](https://app.codecov.io/gh/DuqueOM/ML-MLOps-Portfolio)), security scanning (Trivy/Bandit/Gitleaks/pip-audit) |
 | **Full-Stack AI** | End-to-end: data pipelines → model training → API serving → monitoring → deployment |
 
 ---
@@ -92,7 +92,7 @@ ML Engineer based in Mexico City with 14 years of high-pressure operations exper
 
 </div>
 
-**3 end-to-end ML projects** deployed on GCP (GKE cluster with 6 services) with CI/CD, Terraform IaC, Kubernetes, MLflow tracking, Docker, and 80%+ test coverage.
+**3 end-to-end ML projects** deployed on GCP (GKE cluster with 6 services) with CI/CD, Terraform IaC, Kubernetes, MLflow tracking, Docker, and 85-91% test coverage ([Codecov](https://app.codecov.io/gh/DuqueOM/ML-MLOps-Portfolio)).
 
 | Project | Type | Key Metric | Highlights |
 |---------|------|------------|------------|
