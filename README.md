@@ -19,16 +19,16 @@
 
 ML Engineer based in Mexico City with 14 years of high-pressure operations experience, now building cloud-native ML systems. My background taught me that **production systems must remain reliable under pressure** and that consistency beats short-term heroics.
 
-- 🎓 **TripleTen Data Science Professional Program** (graduating March 2026)
-- 📜 Preparing for **AWS Solutions Architect Associate** certification
+- 🎓 **TripleTen Data Science Professional Program** (Completed March 2026)
+- 📜 Pursuing **AWS Solutions Architect Associate** certification
 - 💼 Open to **ML Engineer / MLOps** opportunities (Remote/Hybrid)
 - 🌎 Mexico City, Mexico | Spanish (Native) & English (B2)
 
 | Strength | Evidence |
 |----------|----------|
 | **Production-Ready Mindset** | Reproducible pipelines with GitHub Actions, Docker, and Kubernetes — not just notebooks |
-| **Infrastructure as Code** | AWS provisioning with Terraform (EKS, VPC, RDS, S3, ECR with lifecycle policies) |
-| **Testing & Security** | 86–96% test coverage, security scanning (Trivy/Bandit/Gitleaks) |
+| **Infrastructure as Code** | GCP production deployment with Terraform (GKE, VPC, Cloud SQL, GCS, Artifact Registry) + AWS Terraform IaC |
+| **Testing & Security** | 80%+ test coverage, security scanning (Trivy/Bandit/Gitleaks/pip-audit) |
 | **Full-Stack AI** | End-to-end: data pipelines → model training → API serving → monitoring → deployment |
 
 ---
@@ -48,8 +48,8 @@ ML Engineer based in Mexico City with 14 years of high-pressure operations exper
 
 **Cloud & Monitoring**
 
-[![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/infra)
-[![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)](https://github.com/DuqueOM/RestoPilotAI)
+[![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/infra)
+[![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/infra/terraform/aws)
 [![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio)
 [![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio)
 
@@ -92,13 +92,13 @@ ML Engineer based in Mexico City with 14 years of high-pressure operations exper
 
 </div>
 
-**3 end-to-end ML projects** in a production monorepo with CI/CD, Terraform (AWS EKS), Kubernetes, MLflow tracking, Docker, and 86–96% test coverage.
+**3 end-to-end ML projects** deployed on GCP (GKE cluster with 6 services) with CI/CD, Terraform IaC, Kubernetes, MLflow tracking, Docker, and 80%+ test coverage.
 
 | Project | Type | Key Metric | Highlights |
 |---------|------|------------|------------|
-| 🏦 **BankChurn Predictor** | Classification | AUC: 0.853 | SHAP explainability, drift detection |
-| 🚗 **CarVision Intelligence** | Regression | R²: 0.766 | Streamlit dashboard (4 tabs) |
-| 📱 **TelecomAI** | Classification | AUC: 0.84 | VotingClassifier ensemble, threshold tuning |
+| 🏦 **BankChurn Predictor** | Classification | AUC: 0.87 | SHAP explainability, drift detection |
+| 🚗 **CarVision Intelligence** | Regression | R²: 0.70 | Streamlit dashboard, auto-selection pipeline |
+| 📱 **TelecomAI** | Classification | Accuracy: 82% | VotingClassifier ensemble, threshold tuning |
 
 <div align="center">
   <a href="https://youtu.be/qmw9VlgUcn8">
