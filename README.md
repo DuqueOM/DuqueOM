@@ -2,7 +2,7 @@
 
 # Hey, I'm Duque Ortega Mutis 👋
 
-**ML Engineer** | Building Production-Ready ML Systems & AI Applications
+**ML Engineer** | Multi-Cloud MLOps · Kubernetes · Terraform · 88-95% Test Coverage
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-blue?style=for-the-badge&logo=github-pages&logoColor=white)](https://duqueom.github.io/ML-MLOps-Portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/DuqueOM)
@@ -20,16 +20,77 @@
 ML Engineer based in Mexico City with 14 years of high-pressure operations experience, now building cloud-native ML systems. My background taught me that **production systems must remain reliable under pressure** and that consistency beats short-term heroics.
 
 - 🎓 **TripleTen Data Science Professional Program** (Completed March 2026)
-- 📜 Pursuing **AWS Solutions Architect Associate** certification
+- 📜 **AWS Machine Learning Specialty** — Certified
 - 💼 Open to **ML Engineer / MLOps** opportunities (Remote/Hybrid)
 - 🌎 Mexico City, Mexico | Spanish (Native) & English (B2)
 
 | Strength | Evidence |
 |----------|----------|
-| **Production-Ready Mindset** | Reproducible pipelines with GitHub Actions, Docker, and Kubernetes — not just notebooks |
-| **Infrastructure as Code** | GCP production deployment with Terraform (GKE, VPC, Cloud SQL, GCS, Artifact Registry) + AWS Terraform IaC |
-| **Testing & Security** | 85-91% test coverage ([Codecov verified](https://app.codecov.io/gh/DuqueOM/ML-MLOps-Portfolio)), security scanning (Trivy/Bandit/Gitleaks/pip-audit) |
-| **Full-Stack AI** | End-to-end: data pipelines → model training → API serving → monitoring → deployment |
+| **Multi-Cloud Production** | Same 6-service stack deployed on **GCP (GKE)** and **AWS (EKS)** via Terraform IaC |
+| **Testing & Security** | **88-95% test coverage** ([Codecov verified](https://app.codecov.io/gh/DuqueOM/ML-MLOps-Portfolio)), security scanning (Trivy/Bandit/Gitleaks/pip-audit) |
+| **Full MLOps Lifecycle** | Data versioning (DVC) → Training → MLflow tracking (9 experiments) → API serving → Monitoring → CI/CD |
+| **Observability** | Prometheus + Grafana dashboards, SHAP explainability, automated drift detection |
+
+---
+
+## 🚀 Flagship Project
+
+### [ML-MLOps-Portfolio](https://github.com/DuqueOM/ML-MLOps-Portfolio) — Production-Grade Multi-Cloud MLOps Platform
+
+<div align="center">
+
+[![CI Pipeline](https://github.com/DuqueOM/ML-MLOps-Portfolio/actions/workflows/ci-mlops.yml/badge.svg)](https://github.com/DuqueOM/ML-MLOps-Portfolio/actions/workflows/ci-mlops.yml)
+[![codecov](https://codecov.io/gh/DuqueOM/ML-MLOps-Portfolio/branch/main/graph/badge.svg)](https://codecov.io/gh/DuqueOM/ML-MLOps-Portfolio)
+[![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12-blue.svg)](https://github.com/DuqueOM/ML-MLOps-Portfolio)
+[![Kubernetes](https://img.shields.io/badge/K8s-GKE%20%2B%20EKS-326CE5?logo=kubernetes&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/k8s)
+[![Terraform](https://img.shields.io/badge/Terraform-Multi--Cloud-7B42BC?logo=terraform&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/infra/terraform)
+[![Docs](https://img.shields.io/badge/Docs-GitHub_Pages-blue?logo=github)](https://duqueom.github.io/ML-MLOps-Portfolio/)
+
+</div>
+
+**3 end-to-end ML projects** deployed on **GCP (GKE) + AWS (EKS)** — 6 Kubernetes services per cloud, Terraform IaC, CI/CD pipelines, MLflow experiment tracking, Prometheus/Grafana monitoring, and **88-95% test coverage**.
+
+| Project | Type | Key Metric | Tech Highlights |
+|---------|------|------------|-----------------|
+| 🏦 **[BankChurn Predictor](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/BankChurn-Predictor)** | Binary Classification | **AUC 0.87**, F1 0.64 | SHAP explainability, drift detection, 88% coverage |
+| 🚗 **[CarVision Intelligence](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/CarVision-Market-Intelligence)** | Regression | **R² 0.77**, RMSE $4,396 | Streamlit dashboard, FeatureEngineer, 95% coverage |
+| 📱 **[TelecomAI](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/TelecomAI-Customer-Intelligence)** | Binary Classification | **AUC 0.84**, Acc 82% | VotingClassifier ensemble, 95% coverage |
+
+<div align="center">
+
+**Infrastructure at a Glance:**
+
+| Layer | GCP | AWS |
+|-------|-----|-----|
+| **Compute** | GKE (3 nodes, e2-medium) | EKS (3 nodes, t3.medium) |
+| **Registry** | Artifact Registry | ECR |
+| **Storage** | GCS (models + datasets) | S3 (versioned, encrypted) |
+| **Database** | Cloud SQL (PostgreSQL) | RDS (PostgreSQL) |
+| **IaC** | Terraform (10+ resources) | Terraform (25+ resources) |
+| **CI/CD** | GitHub Actions → GKE | GitHub Actions → EKS |
+| **Monitoring** | Prometheus + Grafana | Prometheus + Grafana |
+
+</div>
+
+<div align="center">
+
+**Production Evidence:**
+
+| GKE Workloads | Grafana Monitoring | MLflow Experiments |
+|:---:|:---:|:---:|
+| ![GKE](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/gcp-console/05-gke-workloads-running.png) | ![Grafana](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/monitoring/34-grafana-dashboard.png) | ![MLflow](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/monitoring/39-mlflow-experiments.png) |
+| *6 pods running on GKE* | *Real-time dashboard* | *9 tracked experiments* |
+
+| FastAPI APIs | Streamlit Dashboard | SHAP Explainability |
+|:---:|:---:|:---:|
+| ![APIs](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/apis/31-tres-apis-pestanas.png) | ![Streamlit](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/apis/81-streamlit-full-dashboard.png) | ![SHAP](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/apis/82-shap-prediction-response.png) |
+| *3 APIs on Kubernetes* | *Interactive analytics* | *Feature importance* |
+
+  <a href="https://youtu.be/qmw9VlgUcn8">
+    <img src="https://img.shields.io/badge/▶_Watch_Full_Demo-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Demo">
+  </a>
+
+</div>
 
 ---
 
@@ -37,7 +98,7 @@ ML Engineer based in Mexico City with 14 years of high-pressure operations exper
 
 <div align="center">
 
-**MLOps & DevOps**
+**MLOps & Infrastructure**
 
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/blob/main/docker-compose.demo.yml)
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/k8s)
@@ -46,107 +107,30 @@ ML Engineer based in Mexico City with 14 years of high-pressure operations exper
 [![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio)
 [![DVC](https://img.shields.io/badge/DVC-945DD6?style=flat-square&logo=dvc&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio)
 
-**Cloud & Monitoring**
+**Cloud**
 
-[![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/infra)
+[![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/infra/terraform/gcp)
 [![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/infra/terraform/aws)
 [![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio)
 [![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio)
 
-**ML & AI**
+**ML & Data**
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
 [![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square)](https://xgboost.readthedocs.io)
-[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org)
-[![Gemini](https://img.shields.io/badge/Gemini_AI-4285F4?style=flat-square&logo=google&logoColor=white)](https://github.com/DuqueOM/RestoPilotAI)
-
-**Web & API**
-
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)](https://github.com/DuqueOM/RestoPilotAI)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio)
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)](https://pandas.pydata.org)
 
 **Testing & Security**
 
 [![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio)
+[![Codecov](https://img.shields.io/badge/Codecov-F01F7A?style=flat-square&logo=codecov&logoColor=white)](https://app.codecov.io/gh/DuqueOM/ML-MLOps-Portfolio)
 [![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aqua&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio)
 [![Bandit](https://img.shields.io/badge/Bandit-Security-green?style=flat-square)](https://github.com/DuqueOM/ML-MLOps-Portfolio)
 
 </div>
-
----
-
-## 🚀 Featured Projects
-
-### 1. [ML-MLOps-Portfolio](https://github.com/DuqueOM/ML-MLOps-Portfolio) — Production-Grade MLOps Platform
-
-<div align="center">
-
-[![CI Pipeline](https://github.com/DuqueOM/ML-MLOps-Portfolio/actions/workflows/ci-mlops.yml/badge.svg)](https://github.com/DuqueOM/ML-MLOps-Portfolio/actions/workflows/ci-mlops.yml)
-[![codecov](https://codecov.io/gh/DuqueOM/ML-MLOps-Portfolio/branch/main/graph/badge.svg)](https://codecov.io/gh/DuqueOM/ML-MLOps-Portfolio)
-[![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12-blue.svg)](https://github.com/DuqueOM/ML-MLOps-Portfolio)
-[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg?logo=docker&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio)
-[![Docs](https://img.shields.io/badge/Docs-GitHub_Pages-blue?logo=github)](https://duqueom.github.io/ML-MLOps-Portfolio/)
-
-</div>
-
-**3 end-to-end ML projects** deployed on GCP (GKE cluster with 6 services) with CI/CD, Terraform IaC, Kubernetes, MLflow tracking, Docker, and 85-91% test coverage ([Codecov](https://app.codecov.io/gh/DuqueOM/ML-MLOps-Portfolio)).
-
-| Project | Type | Key Metric | Highlights |
-|---------|------|------------|------------|
-| 🏦 **BankChurn Predictor** | Classification | AUC: 0.87 | SHAP explainability, drift detection |
-| 🚗 **CarVision Intelligence** | Regression | R²: 0.70 | Streamlit dashboard, auto-selection pipeline |
-| 📱 **TelecomAI** | Classification | Accuracy: 82% | VotingClassifier ensemble, threshold tuning |
-
-<div align="center">
-  <a href="https://youtu.be/qmw9VlgUcn8">
-    <img src="https://github.com/DuqueOM/ML-MLOps-Portfolio/blob/main/docs/media/gifs/portfolio-demo.gif?raw=true" width="65%" alt="MLOps Portfolio Demo">
-  </a>
-  <br>
-  <em>👆 Click to watch the full demo on YouTube</em>
-</div>
-
----
-
-### 2. [RestoPilotAI](https://github.com/DuqueOM/RestoPilotAI) — AI-Powered Restaurant Intelligence
-
-<div align="center">
-
-[![Gemini 3](https://img.shields.io/badge/Powered%20by-Gemini%203-blue?style=flat-square&logo=google)](https://ai.google.dev/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=flat-square&logo=fastapi)](https://github.com/DuqueOM/RestoPilotAI)
-[![Next.js](https://img.shields.io/badge/Next.js_15-Frontend-000?style=flat-square&logo=next.js)](https://github.com/DuqueOM/RestoPilotAI)
-
-</div>
-
-Full-stack AI platform that transforms restaurant competitive analysis from **$5,000 consultant engagement → ~$2 AI-powered analysis in 5 minutes**. Built for the Gemini 3 Hackathon.
-
-- **8 specialized AI agents** orchestrated in a 17-stage autonomous pipeline
-- **Multimodal**: video, audio, images, PDFs, CSV — all processed natively by Gemini 3
-- **90+ React components**, WebSocket streaming, Google Search grounding with auto-citations
-- **Google Cloud Run** deployment (frontend + backend split)
-
----
-
-### 3. [Applied-ML-Projects](https://github.com/DuqueOM/Applied-ML-Projects) — Applied ML Portfolio
-
-<div align="center">
-
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/DuqueOM/Applied-ML-Projects)
-[![FastAPI](https://img.shields.io/badge/FastAPI-Serving-009688?style=flat-square&logo=fastapi)](https://github.com/DuqueOM/Applied-ML-Projects)
-[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=flat-square&logo=docker)](https://github.com/DuqueOM/Applied-ML-Projects)
-
-</div>
-
-**4 production-oriented ML projects** spanning regression, classification, time series, and risk analysis — each with CLI pipelines, FastAPI serving, Docker packaging, and automated testing.
-
-| Project | Domain | Key Metric |
-|---------|--------|------------|
-| 🛢️ **OilWell Location Optimizer** | Energy / Risk | Loss prob < 2.5% |
-| ⚙️ **GoldRecovery Process Optimizer** | Mining | sMAPE 8.8% |
-| 🚕 **Chicago Mobility Analytics** | Transportation | RMSE 48.2 |
-| 🎮 **Gaming Market Intelligence** | Entertainment | AUC 0.85 |
 
 ---
 
