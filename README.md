@@ -2,7 +2,7 @@
 
 # Hey, I'm Duque Ortega Mutis 👋
 
-**ML Engineer** | Multi-Cloud MLOps · Kubernetes · Terraform · 85-99% Test Coverage (323 tests)
+**ML Engineer** | Multi-Cloud MLOps · Kubernetes · Terraform · 90–98% Test Coverage (323 tests)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-blue?style=for-the-badge&logo=github-pages&logoColor=white)](https://duqueom.github.io/ML-MLOps-Portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/DuqueOM)
@@ -27,7 +27,7 @@ ML Engineer based in Mexico City with 14 years of high-pressure operations exper
 | Strength | Evidence |
 |----------|----------|
 | **Multi-Cloud Production** | Same 6-service stack deployed on **GCP (GKE)** and **AWS (EKS)** via Terraform IaC |
-| **Testing & Security** | **85-99% test coverage** (323 tests, [Codecov verified](https://app.codecov.io/gh/DuqueOM/ML-MLOps-Portfolio)), security scanning (Trivy/Bandit/Gitleaks/pip-audit) |
+| **Testing & Security** | **90–98% test coverage** (323 tests, [Codecov verified](https://app.codecov.io/gh/DuqueOM/ML-MLOps-Portfolio)), security scanning (Trivy/Bandit/Gitleaks/pip-audit) |
 | **Full MLOps Lifecycle** | Data versioning (DVC) → Training → MLflow tracking (9 experiments) → API serving → Monitoring → CI/CD |
 | **Observability** | OpenTelemetry tracing, Prometheus + Grafana dashboards, SHAP explainability, drift detection |
 | **Responsible AI** | Fairness audits (all 3 projects), automated drift detection (KS + PSI + Evidently), Pandera data validation |
@@ -49,7 +49,7 @@ ML Engineer based in Mexico City with 14 years of high-pressure operations exper
 
 </div>
 
-**3 end-to-end ML projects** deployed on **GCP (GKE) + AWS (EKS)** — 6 Kubernetes services per cloud, Terraform IaC, CI/CD pipelines, MLflow experiment tracking, Prometheus/Grafana monitoring, and **85-99% test coverage** (323 tests).
+**3 end-to-end ML projects** deployed on **GCP (GKE) + AWS (EKS)** — 6 Kubernetes services per cloud, Terraform IaC, CI/CD pipelines, MLflow experiment tracking, Prometheus/Grafana monitoring, and **90–98% test coverage** (323 tests).
 
 | Project | Type | Key Metric | Tech Highlights |
 |---------|------|------------|-----------------|
