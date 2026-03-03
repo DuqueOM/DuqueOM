@@ -2,7 +2,7 @@
 
 # Hey, I'm Duque Ortega Mutis 👋
 
-**ML Engineer** | Multi-Cloud MLOps · Kubernetes · Terraform · 76-95% Test Coverage (252 tests)
+**ML Engineer** | Multi-Cloud MLOps · Kubernetes · Terraform · 85-99% Test Coverage (292 tests)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-blue?style=for-the-badge&logo=github-pages&logoColor=white)](https://duqueom.github.io/ML-MLOps-Portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/DuqueOM)
@@ -27,9 +27,9 @@ ML Engineer based in Mexico City with 14 years of high-pressure operations exper
 | Strength | Evidence |
 |----------|----------|
 | **Multi-Cloud Production** | Same 6-service stack deployed on **GCP (GKE)** and **AWS (EKS)** via Terraform IaC |
-| **Testing & Security** | **76-95% test coverage** (252 tests, [Codecov verified](https://app.codecov.io/gh/DuqueOM/ML-MLOps-Portfolio)), security scanning (Trivy/Bandit/Gitleaks/pip-audit) |
+| **Testing & Security** | **85-99% test coverage** (292 tests, [Codecov verified](https://app.codecov.io/gh/DuqueOM/ML-MLOps-Portfolio)), security scanning (Trivy/Bandit/Gitleaks/pip-audit) |
 | **Full MLOps Lifecycle** | Data versioning (DVC) → Training → MLflow tracking (9 experiments) → API serving → Monitoring → CI/CD |
-| **Observability** | Prometheus + Grafana dashboards, SHAP explainability, automated drift detection |
+| **Observability** | OpenTelemetry tracing, Prometheus + Grafana dashboards, SHAP explainability, drift detection |
 
 ---
 
@@ -48,13 +48,13 @@ ML Engineer based in Mexico City with 14 years of high-pressure operations exper
 
 </div>
 
-**3 end-to-end ML projects** deployed on **GCP (GKE) + AWS (EKS)** — 6 Kubernetes services per cloud, Terraform IaC, CI/CD pipelines, MLflow experiment tracking, Prometheus/Grafana monitoring, and **76-95% test coverage** (252 tests).
+**3 end-to-end ML projects** deployed on **GCP (GKE) + AWS (EKS)** — 6 Kubernetes services per cloud, Terraform IaC, CI/CD pipelines, MLflow experiment tracking, Prometheus/Grafana monitoring, and **85-99% test coverage** (292 tests).
 
 | Project | Type | Key Metric | Tech Highlights |
 |---------|------|------------|-----------------|
-| 🏦 **[BankChurn Predictor](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/BankChurn-Predictor)** | Binary Classification | **AUC 0.86**, F1 0.62 | SHAP explainability, drift detection, 88% coverage |
-| 🚗 **[CarVision Intelligence](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/CarVision-Market-Intelligence)** | Regression | **R² 0.82**, RMSE $6,273 | Streamlit dashboard, FeatureEngineer, 95% coverage |
-| � **[NLPInsight Analyzer](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/NLPInsight-Analyzer)** | NLP Sentiment (3-class) | **Acc 88%**, F1-macro 0.83 | Dual-backend (TF-IDF + DistilBERT), 76% coverage |
+| 🏦 **[BankChurn Predictor](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/BankChurn-Predictor)** | Binary Classification | **AUC 0.87**, F1 0.62 | StackingClassifier (5 models), SHAP, fairness audits, 90% coverage |
+| 🚗 **[CarVision Intelligence](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/CarVision-Market-Intelligence)** | Regression | **R² 0.80**, RMSE $6,744 | LightGBM + FeatureEngineer, Streamlit dashboard, 95% coverage |
+| 📝 **[NLPInsight Analyzer](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/NLPInsight-Analyzer)** | NLP Sentiment (3-class) | **Acc 97%**, F1-w 0.97 | FinBERT (ProsusAI), TF-IDF fallback, 99% coverage |
 
 <div align="center">
 
