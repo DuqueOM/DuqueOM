@@ -2,7 +2,7 @@
 
 # Hey, I'm Duque Ortega Mutis 👋
 
-**ML Engineer** | Multi-Cloud MLOps · Kubernetes · Terraform · 90–98% Test Coverage (368+ tests)
+**ML Engineer** | AWS Certified ML — Specialty | Serial Entrepreneur → MLOps
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-blue?style=for-the-badge&logo=github-pages&logoColor=white)](https://duqueom.github.io/ML-MLOps-Portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/DuqueOM)
@@ -17,12 +17,13 @@
 
 ## 🎯 About Me
 
-ML Engineer based in Mexico City with 14 years of high-pressure operations experience, now building cloud-native ML systems. My background taught me that **production systems must remain reliable under pressure** and that consistency beats short-term heroics.
+ML Engineer who launched 5 ventures before building ML systems. After a decade of entrepreneurship across tech services, digital marketing, restaurants, and events in Colombia — tracking P&L, managing teams, coordinating vendors, and learning from failures — I relocated to Mexico and channeled that builder mindset into ML engineering. Self-funded my technical education and built a production multi-cloud MLOps platform from scratch.
 
+- 📜 **AWS Machine Learning — Specialty** Certified
 - 🎓 **TripleTen Data Science Professional Program** (Completed March 2026)
-- 📜 **AWS Machine Learning Specialty** — Certified
-- 💼 Open to **ML Engineer / MLOps** opportunities (Remote/Hybrid)
-- 🌎 Mexico City, Mexico | Spanish (Native) & English (B2)
+- 🎓 University coursework: Electronic Engineering, Business Administration, Marketing
+- 💼 Open to **ML Engineer / MLOps** opportunities (Remote preferred)
+- 🌎 Mexico City | Spanish (Native) & English (B2)
 
 | Strength | Evidence |
 |----------|----------|
@@ -54,8 +55,8 @@ ML Engineer based in Mexico City with 14 years of high-pressure operations exper
 | Project | Type | Key Metric | Tech Highlights |
 |---------|------|------------|-----------------|
 | 🏦 **[BankChurn Predictor](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/BankChurn-Predictor)** | Binary Classification | **AUC 0.87**, F1 0.62 | StackingClassifier (4 base + meta-learner), SHAP, fairness audits, 90% coverage (199 tests) |
-| 🚗 **[CarVision Intelligence](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/CarVision-Market-Intelligence)** | Regression | **R² 0.80**, RMSE $6,744 | LightGBM + FeatureEngineer, fairness audits, Streamlit, 96% coverage (52 tests) |
-| 📝 **[NLPInsight Analyzer](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/NLPInsight-Analyzer)** | NLP Sentiment (3-class) | **Acc 97%**, F1-w 0.97 | FinBERT (ProsusAI), fairness audits, TF-IDF fallback, 98% coverage (74 tests) |
+| � **[NLPInsight Analyzer](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/NLPInsight-Analyzer)** | NLP Sentiment (3-class) | **Acc 80.6%**, F1-macro 0.75 | TF-IDF + LogReg, fairness audits, 98% coverage (74 tests) |
+| � **[ChicagoTaxi Pipeline](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/ChicagoTaxi-Demand-Pipeline)** | Demand Forecasting | **R² 0.96**, RMSE 7.87 | PySpark ETL (6.3M rows), RandomForest, Dask batch, 22 tests |
 
 <div align="center">
 
