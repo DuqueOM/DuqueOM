@@ -2,7 +2,7 @@
 
 # Hey, I'm Duque Ortega Mutis 👋
 
-**ML Engineer** | AWS Certified ML — Specialty | Serial Entrepreneur → MLOps
+**ML Engineer** | MLOps & Cloud Infrastructure | Serial Entrepreneur → MLOps
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-blue?style=for-the-badge&logo=github-pages&logoColor=white)](https://duqueom.github.io/ML-MLOps-Portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/DuqueOM)
@@ -19,8 +19,8 @@
 
 ML Engineer who launched 5 ventures before building ML systems. After a decade of entrepreneurship across tech services, digital marketing, restaurants, and events in Colombia — tracking P&L, managing teams, coordinating vendors, and learning from failures — I relocated to Mexico and channeled that builder mindset into ML engineering. Self-funded my technical education and built a production multi-cloud MLOps platform from scratch.
 
-- 📜 **AWS Machine Learning — Specialty** Certified
-- 🎓 **TripleTen Data Science Professional Program** (Completed March 2026)
+- 📜 **AWS Machine Learning — Specialty** *(In Progress — 2026)*
+- 🎓 **TripleTen Data Science Professional Program** — March 2026
 - 🎓 University coursework: Electronic Engineering, Business Administration, Marketing
 - 💼 Open to **ML Engineer / MLOps** opportunities (Remote preferred)
 - 🌎 Mexico City | Spanish (Native) & English (B2)
@@ -28,9 +28,9 @@ ML Engineer who launched 5 ventures before building ML systems. After a decade o
 | Strength | Evidence |
 |----------|----------|
 | **Multi-Cloud Production** | Same 6-service stack deployed on **GCP (GKE)** and **AWS (EKS)** via Terraform IaC |
-| **Testing & Security** | **90–98% test coverage** (368+ tests, [Codecov verified](https://app.codecov.io/gh/DuqueOM/ML-MLOps-Portfolio)), security scanning (Trivy/Bandit/Gitleaks/pip-audit) |
+| **Testing & Security** | **90–98% test coverage** (294+ tests, [Codecov verified](https://app.codecov.io/gh/DuqueOM/ML-MLOps-Portfolio)), security scanning (Trivy/Bandit/Gitleaks/pip-audit) |
 | **Full MLOps Lifecycle** | Data versioning (DVC) → Training → MLflow tracking (9 experiments) → API serving → Monitoring → CI/CD |
-| **Observability** | OpenTelemetry tracing, Prometheus + Grafana dashboards, SHAP explainability, drift detection |
+| **Observability** | OpenTelemetry tracing, Prometheus + Grafana (26-panel enterprise dashboard), SHAP explainability, drift detection |
 | **Responsible AI** | Fairness audits (all 3 projects), automated drift detection (KS + PSI + Evidently), Pandera data validation |
 
 ---
@@ -50,7 +50,7 @@ ML Engineer who launched 5 ventures before building ML systems. After a decade o
 
 </div>
 
-**3 end-to-end ML projects** deployed on **GCP (GKE) + AWS (EKS)** — 8 Kubernetes pods (with HPA autoscaling), Terraform IaC, CI/CD pipelines, MLflow experiment tracking, Prometheus/Grafana monitoring, and **90–98% test coverage** (368+ tests).
+**3 end-to-end ML projects** deployed on **GCP (GKE) + AWS (EKS)** — 6 Kubernetes pods (with HPA autoscaling), Terraform IaC, CI/CD pipelines, MLflow experiment tracking, Prometheus/Grafana monitoring, and **90–98% test coverage** (294+ tests).
 
 | Project | Type | Key Metric | Tech Highlights |
 |---------|------|------------|-----------------|
@@ -81,7 +81,7 @@ ML Engineer who launched 5 ventures before building ML systems. After a decade o
 | GKE Workloads | Grafana Monitoring | MLflow Experiments |
 |:---:|:---:|:---:|
 | ![GKE](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/gcp-console/05-gke-workloads-running.png) | ![Grafana](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/monitoring/34-grafana-dashboard.png) | ![MLflow](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/monitoring/39-mlflow-experiments.png) |
-| *8+ pods running on GKE (HPA)* | *Real-time dashboard* | *9 tracked experiments* |
+| *8+ pods running on GKE (HPA)* | *26-panel enterprise dashboard* | *9 tracked experiments* |
 
 | FastAPI APIs | Streamlit Dashboard | SHAP Explainability |
 |:---:|:---:|:---:|
