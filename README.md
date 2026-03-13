@@ -64,13 +64,13 @@ ML Engineer who launched 5 ventures before building ML systems. After a decade o
 
 | Layer | GCP | AWS |
 |-------|-----|-----|
-| **Compute** | GKE (7 nodes, e2-medium) | EKS (2–5 nodes, t3.medium) |
+| **Compute** | GKE (4 nodes, e2-medium) | EKS (3 nodes, t3.small) |
 | **Registry** | Artifact Registry | ECR |
 | **Storage** | GCS (models + datasets) | S3 (versioned, encrypted) |
 | **Database** | Cloud SQL (PostgreSQL) | RDS (PostgreSQL) |
 | **IaC** | Terraform (10+ resources) | Terraform (25+ resources) |
 | **CI/CD** | GitHub Actions → GKE | GitHub Actions → EKS |
-| **Monitoring** | Prometheus + Grafana | Prometheus + Grafana |
+| **Monitoring** | Prometheus + Grafana + MLflow | Prometheus + Grafana + MLflow |
 
 </div>
 
@@ -78,15 +78,15 @@ ML Engineer who launched 5 ventures before building ML systems. After a decade o
 
 **Production Evidence:**
 
-| GKE Workloads | Grafana Monitoring | MLflow Experiments |
+| Multi-Cloud Deployed | GKE Workloads | EKS Workloads |
 |:---:|:---:|:---:|
-| ![GKE](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/gcp-console/05-gke-workloads-running.png) | ![Grafana](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/monitoring/34-grafana-dashboard.png) | ![MLflow](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/monitoring/39-mlflow-experiments.png) |
-| *8+ pods running on GKE (HPA)* | *26-panel enterprise dashboard* | *9 tracked experiments* |
+| ![Multi-Cloud](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/aws-terminal/36-multicloud-side-by-side.png) | ![GKE](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/gcp-console/05-gke-workloads-running.png) | ![EKS](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/aws-console/30-eks-workloads-running.png) |
+| *GKE + EKS side-by-side* | *6 pods on GKE (HPA)* | *6 pods on EKS (HPA)* |
 
-| FastAPI APIs | Streamlit Dashboard | SHAP Explainability |
+| Grafana Monitoring | MLflow Experiments | SHAP Explainability |
 |:---:|:---:|:---:|
-| ![APIs](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/apis/31-tres-apis-pestanas.png) | ![Streamlit](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/apis/81-streamlit-full-dashboard.png) | ![SHAP](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/apis/82-shap-prediction-response.png) |
-| *3 APIs on Kubernetes* | *Interactive analytics* | *Feature importance* |
+| ![Grafana](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/monitoring/34-grafana-dashboard.png) | ![MLflow](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/monitoring/39-mlflow-experiments.png) | ![SHAP](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/apis/26-bankchurn-prediccion-real.png) |
+| *26-panel enterprise dashboard* | *3 experiments, 14 runs* | *Real-time feature importance* |
 
   <a href="https://youtu.be/qmw9VlgUcn8">
     <img src="https://img.shields.io/badge/▶_Watch_Full_Demo-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Demo">
@@ -122,7 +122,7 @@ ML Engineer who launched 5 ventures before building ML systems. After a decade o
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
 [![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square)](https://xgboost.readthedocs.io)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio)
+[![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apache-spark&logoColor=white)](https://spark.apache.org)
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)](https://pandas.pydata.org)
 
 **Testing & Security**
