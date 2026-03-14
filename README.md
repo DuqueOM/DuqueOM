@@ -28,7 +28,7 @@ ML Engineer who launched 5 ventures before building ML systems. After a decade o
 | Strength | Evidence |
 |----------|----------|
 | **Multi-Cloud Production** | Same 6-service stack deployed on **GCP (GKE)** and **AWS (EKS)** via Terraform IaC |
-| **Testing & Security** | **90–98% test coverage** (294+ tests, [Codecov verified](https://app.codecov.io/gh/DuqueOM/ML-MLOps-Portfolio)), security scanning (Trivy/Bandit/Gitleaks/pip-audit) |
+| **Testing & Security** | **90–98% test coverage** (395+ tests, [Codecov verified](https://app.codecov.io/gh/DuqueOM/ML-MLOps-Portfolio)), security scanning (Trivy/Bandit/Gitleaks/pip-audit) |
 | **Full MLOps Lifecycle** | Data versioning (DVC) → Training → MLflow tracking (9 experiments) → API serving → Monitoring → CI/CD |
 | **Observability** | OpenTelemetry tracing, Prometheus + Grafana (26-panel enterprise dashboard), SHAP explainability, drift detection |
 | **Responsible AI** | Fairness audits (all 3 projects), automated drift detection (KS + PSI + Evidently), Pandera data validation |
@@ -50,13 +50,13 @@ ML Engineer who launched 5 ventures before building ML systems. After a decade o
 
 </div>
 
-**3 end-to-end ML projects** deployed on **GCP (GKE) + AWS (EKS)** — 6 Kubernetes pods (with HPA autoscaling), Terraform IaC, CI/CD pipelines, MLflow experiment tracking, Prometheus/Grafana monitoring, and **90–98% test coverage** (294+ tests).
+**3 end-to-end ML projects** deployed on **GCP (GKE) + AWS (EKS)** — 6 Kubernetes pods (with HPA autoscaling), Terraform IaC, CI/CD pipelines, MLflow experiment tracking, Prometheus/Grafana monitoring, and **90–98% test coverage** (395+ tests).
 
 | Project | Type | Key Metric | Tech Highlights |
 |---------|------|------------|-----------------|
 | 🏦 **[BankChurn Predictor](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/BankChurn-Predictor)** | Binary Classification | **AUC 0.87**, F1 0.62 | StackingClassifier (4 base + meta-learner), SHAP, fairness audits, 90% coverage (199 tests) |
 | � **[NLPInsight Analyzer](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/NLPInsight-Analyzer)** | NLP Sentiment (3-class) | **Acc 80.6%**, F1-macro 0.75 | TF-IDF + LogReg, fairness audits, 98% coverage (74 tests) |
-| � **[ChicagoTaxi Pipeline](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/ChicagoTaxi-Demand-Pipeline)** | Demand Forecasting | **R² 0.96**, RMSE 7.87 | PySpark ETL (6.3M rows), RandomForest, Dask batch, 22 tests |
+| � **[ChicagoTaxi Pipeline](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/ChicagoTaxi-Demand-Pipeline)** | Demand Forecasting | **R² 0.96**, RMSE 7.87 | PySpark ETL (6.3M rows), RandomForest, Dask batch, 122 tests |
 
 <div align="center">
 

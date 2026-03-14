@@ -10,7 +10,7 @@ Idiomas: Español (Nativo), Inglés (B2) | Residencia: Residente Temporal (Méxi
 
 ## PERFIL PROFESIONAL
 
-Ingeniero ML que diseñó y desplegó desde cero una plataforma MLOps multi-nube en producción (GCP GKE + AWS EKS) — 6 servicios en Kubernetes (3 APIs ML + MLflow + Prometheus + Grafana), detección automática de drift, CI/CD con escaneo de seguridad y cobertura de pruebas del 90–98% (294+ pruebas, verificadas con Codecov). Historial como emprendedor serial: fundé 5 negocios en servicios tecnológicos, marketing digital, restaurantes y eventos, gestionando equipos, presupuestos, metas de ventas y operaciones multi-proveedor durante más de una década. Formación técnica autofinanciada tras relocalización de Colombia a México.
+Ingeniero ML que diseñó y desplegó desde cero una plataforma MLOps multi-nube en producción (GCP GKE + AWS EKS) — 6 servicios en Kubernetes (3 APIs ML + MLflow + Prometheus + Grafana), detección automática de drift, CI/CD con escaneo de seguridad y cobertura de pruebas del 90–98% (395+ pruebas, verificadas con Codecov). Historial como emprendedor serial: fundé 5 negocios en servicios tecnológicos, marketing digital, restaurantes y eventos, gestionando equipos, presupuestos, metas de ventas y operaciones multi-proveedor durante más de una década. Formación técnica autofinanciada tras relocalización de Colombia a México.
 
 ---
 
@@ -21,7 +21,7 @@ Ingeniero ML que diseñó y desplegó desde cero una plataforma MLOps multi-nube
 - **Monitoreo**: Prometheus, Grafana (auto-alojado en K8s), OpenTelemetry, explicabilidad SHAP, detección automática de drift (KS + PSI + Evidently)
 - **ML/Backend**: Python 3.11+, FastAPI, Scikit-learn, LightGBM, HuggingFace Transformers, PySpark, Dask, Pandas, Pydantic
 - **IA Responsable**: Auditorías de equidad (impacto dispar, paridad F1), validación de datos con Pandera, detección de drift
-- **Testing & Seguridad**: Pytest (cobertura 90–98%, 294+ pruebas), Codecov, Trivy, Bandit, Gitleaks, pip-audit
+- **Testing & Seguridad**: Pytest (cobertura 90–98%, 395+ pruebas), Codecov, Trivy, Bandit, Gitleaks, pip-audit
 
 ---
 
@@ -42,7 +42,7 @@ Monorepo de producción: 3 servicios ML desplegados en GCP (GKE, 4 nodos) y AWS 
 |---------|------|------------|-------|
 | **BankChurn Predictor** | Clasificación binaria | AUC 0.87, F1 0.62 | 199 pruebas, 90% cobertura |
 | **NLPInsight Analyzer** | Análisis de Sentimiento NLP | Acc 80.6%, F1-macro 0.75 | 74 pruebas, 98% cobertura |
-| **ChicagoTaxi Pipeline** | Pronóstico de Demanda | R² 0.96, RMSE 7.87 | 22 pruebas |
+| **ChicagoTaxi Pipeline** | Pronóstico de Demanda | R² 0.96, RMSE 7.87 | 122 pruebas |
 
 ### RestoPilotAI | github.com/DuqueOM/RestoPilotAI
 
