@@ -2,7 +2,7 @@
 
 # Hey, I'm Duque Ortega Mutis 👋
 
-**Junior MLOps Engineer** | Multi-Cloud K8s | Terraform | 395+ Tests | Entrepreneur → MLOps
+**MLOps Engineer** | Multi-Cloud K8s | Terraform | 395+ Tests | Entrepreneur → MLOps
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-blue?style=for-the-badge&logo=github-pages&logoColor=white)](https://duqueom.github.io/ML-MLOps-Portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/DuqueOM)
@@ -38,14 +38,18 @@ MLOps engineer with a production multi-cloud platform deployed from scratch (GKE
 
 </div>
 
-| Project | Type | Key Metric | Tests |
-|---------|------|------------|-------|
-| [BankChurn Predictor](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/BankChurn-Predictor) | Classification | AUC 0.87 | 199 tests, 90% cov |
-| [NLPInsight Analyzer](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/NLPInsight-Analyzer) | NLP Sentiment | Acc 80.6% | 74 tests, 98% cov |
-| [ChicagoTaxi Pipeline](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/ChicagoTaxi-Demand-Pipeline) | Demand Forecasting | R² 0.96 | 122 tests |
+<div align="center">
+
+| Project | Type | Key Metric | Latency p50 (GCP / AWS) | Tests |
+|---------|------|------------|:-----------------------:|-------|
+| [BankChurn Predictor](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/BankChurn-Predictor) | Classification | AUC 0.87 | 103ms / 108ms | 199 tests, 90% cov |
+| [NLPInsight Analyzer](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/NLPInsight-Analyzer) | NLP Sentiment | Acc 80.6% | 5ms / 7ms | 74 tests, 98% cov |
+| [ChicagoTaxi Pipeline](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/ChicagoTaxi-Demand-Pipeline) | Demand Forecasting | R² 0.96 | 75ms / 80ms | 122 tests |
+
+</div>
 
 **What makes it production-grade:**
-- **Multi-Cloud K8s**: GKE (4 nodes) + EKS (3 nodes), Terraform IaC, Kustomize overlays, HPA autoscaling, Network Policies, PDB
+- **Multi-Cloud K8s**: GKE (1 node baseline, auto-scales to 5) + EKS (1 node baseline, auto-scales to 5), Terraform IaC, Kustomize overlays, HPA autoscaling, Network Policies, PDB
 - **CI/CD**: GitHub Actions — 10-job matrix, security scanning (Trivy/Bandit/Gitleaks), automated deploy to both clouds
 - **MLOps**: Daily drift detection CronJob (PSI), MLflow tracking (9 experiments), Prometheus + Grafana (26 panels, 16 alert rules)
 - **Quality**: 395+ tests, 90–98% coverage ([Codecov](https://app.codecov.io/gh/DuqueOM/ML-MLOps-Portfolio)), 13 ADRs, model cards, fairness audits, Pandera validation
