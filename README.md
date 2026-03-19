@@ -42,9 +42,9 @@ MLOps engineer with a production multi-cloud platform deployed from scratch (GKE
 
 | Project | Type | Key Metric | Latency p50 (GCP / AWS) | Tests |
 |---------|------|------------|:-----------------------:|-------|
-| [BankChurn Predictor](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/BankChurn-Predictor) | Classification | AUC 0.87 | 2200ms / 2300ms | 199 tests, 90% cov |
-| [NLPInsight Analyzer](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/NLPInsight-Analyzer) | NLP Sentiment | Acc 80.6% | 140ms / 150ms | 74 tests, 98% cov |
-| [ChicagoTaxi Pipeline](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/ChicagoTaxi-Demand-Pipeline) | Demand Forecasting | R² 0.96 | 170ms / 180ms | 122 tests |
+| [BankChurn Predictor](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/BankChurn-Predictor) | Classification | AUC 0.87 | 200ms / 110ms | 199 tests, 90% cov |
+| [NLPInsight Analyzer](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/NLPInsight-Analyzer) | NLP Sentiment | Acc 80.6% | 78ms / 100ms | 74 tests, 98% cov |
+| [ChicagoTaxi Pipeline](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/ChicagoTaxi-Demand-Pipeline) | Demand Forecasting | R² 0.96 | 100ms / 120ms | 122 tests |
 
 </div>
 
