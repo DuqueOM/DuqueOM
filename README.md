@@ -6,7 +6,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-blue?style=for-the-badge&logo=github-pages&logoColor=white)](https://duqueom.github.io/ML-MLOps-Portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/DuqueOM)
-[![YouTube](https://img.shields.io/badge/YouTube-3min_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/qmw9VlgUcn8)
+[![YouTube](https://img.shields.io/badge/YouTube-3min_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/7dFFqq2ROPw)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:DuqueOrtegaMutis@gmail.com)
 
 </div>
@@ -60,7 +60,7 @@ MLOps engineer with a production multi-cloud platform deployed from scratch (GKE
 |:---:|:---:|
 | ![Multi-Cloud](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/aws-terminal/36-multicloud-side-by-side.png) | ![Grafana](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/monitoring/34-grafana-dashboard.png) |
 
-<a href="https://youtu.be/qmw9VlgUcn8">
+<a href="https://youtu.be/7dFFqq2ROPw">
   <img src="https://img.shields.io/badge/▶_Watch_3min_Demo-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Demo">
 </a>
 
@@ -103,7 +103,7 @@ These projects use AI-assisted tools (Cursor / Windsurf Cascade) for code genera
 [![Email](https://img.shields.io/badge/Email-DuqueOrtegaMutis@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:DuqueOrtegaMutis@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-DuqueOM-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/DuqueOM)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live_Docs-blue?style=flat-square&logo=github-pages&logoColor=white)](https://duqueom.github.io/ML-MLOps-Portfolio/)
-[![YouTube](https://img.shields.io/badge/YouTube-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/qmw9VlgUcn8)
+[![YouTube](https://img.shields.io/badge/YouTube-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/7dFFqq2ROPw)
 
 *"I don't just train models — I build the infrastructure that makes them reliable."*
 
