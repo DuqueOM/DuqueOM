@@ -15,7 +15,7 @@
 
 ## About Me
 
-MLOps engineer with a production multi-cloud platform deployed from scratch (GKE + EKS, 6 K8s services, 395+ tests). 11 years running 5 businesses — managing teams, P&L, and vendor operations — now applied to building reliable ML systems.
+MLOps engineer with a production multi-cloud platform deployed from scratch (GKE + EKS, 6 K8s services, 395+ tests). 14 years running 5 businesses — managing teams, P&L, and vendor operations — now applied to building reliable ML systems.
 
 - **AWS Certified Machine Learning — Specialty** | TripleTen Data Science Graduate
 - Open to **MLOps / ML Infrastructure** roles (Remote preferred)
