@@ -13,26 +13,19 @@
 
 ---
 
-## What Makes This Portfolio Different
+## Why This Portfolio Stands Out
 
-Most ML portfolios show models that score well. This one shows what happens **after you deploy** — the incidents, the wrong decisions corrected, and 17 Architectural Decision Records documenting every trade-off with measured data.
+Most ML portfolios stop at model metrics. This one focuses on what happens **after deployment**: incidents, root-cause analysis, and the trade-offs behind each architectural decision, documented across 17 Architectural Decision Records with measured outcomes.
 
-```
-Three production incidents diagnosed from first principles:
+### Production incidents resolved from first principles
 
- 81% error rate under load  →  uvicorn --workers is anti-pattern under K8s
-                                (shared CPU budget = thrashing, not parallelism)
-                                Fixed: asyncio + ThreadPoolExecutor, GIL analysis
-                                Result: 81% errors → 0%, 2000m CPU → 1000m
+| Incident | Root cause | Fix | Outcome |
+|---------|------------|-----|---------|
+| 81% error rate under load | `uvicorn --workers` on K8s caused CPU thrashing rather than true parallelism | Switched to asyncio + `ThreadPoolExecutor`; validated GIL behavior | Errors 81% → 0%; CPU request 2000m → 1000m |
+| SHAP returning all zeros | `TreeExplainer` was incompatible with `StackingClassifier` in this setup | Used `KernelExplainer` in the original feature space after evaluating 4 alternatives | Reliable feature attributions restored |
+| HPA never scaled down | Memory-based HPA with a fixed ML footprint made scale-down mathematically impossible | Moved to CPU-only HPA | 3 → 1 pods in 8 minutes |
 
- SHAP returning all zeros   →  TreeExplainer incompatible with StackingClassifier
-                                Fixed: KernelExplainer in original feature space
-                                Evaluated 4 alternatives before deciding
-
- HPA never scales down      →  Memory-based HPA + fixed ML footprint
-                                = mathematically impossible to scale down
-                                Fixed: CPU-only HPA, 3→1 pods in 8 minutes
-```
+<sub>Concise by design: the details live in the project, the ADRs, and the demo.</sub>
 
 ---
 
