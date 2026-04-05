@@ -9,11 +9,11 @@
 [![YouTube](https://img.shields.io/badge/YouTube-3min_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/7dFFqq2ROPw)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:DuqueOrtegaMutis@gmail.com)
 
-</div>
-
 ---
 
 ## Why This Portfolio Stands Out
+
+</div>
 
 Most ML portfolios stop at model metrics. This one focuses on what happens **after deployment**: incidents, root-cause analysis, and the trade-offs behind each architectural decision, documented across 17 Architectural Decision Records with measured outcomes.
 
