@@ -70,15 +70,6 @@ Three production incidents diagnosed from first principles:
 
 ---
 
-## Other Projects
-
-| Repo | Description |
-|------|-------------|
-| [RestoPilotAI](https://github.com/DuqueOM/RestoPilotAI) | Full-stack AI app: FastAPI + Next.js 15 + Gemini · 17-stage agentic pipeline · 80+ endpoints |
-| [Applied-ML-Projects](https://github.com/DuqueOM/Applied-ML-Projects) | 4 production-oriented ML projects · FastAPI · Docker · drift detection |
-
----
-
 ## AI Transparency
 
 These projects use AI-assisted tools (Cursor / Windsurf Cascade) for code generation and boilerplate. All architectural decisions, system design, trade-off analysis, and incident resolution are the author's. AI tools accelerate throughput — they don't replace engineering judgment.
