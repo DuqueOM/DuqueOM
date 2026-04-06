@@ -1,124 +1,96 @@
 <div align="center">
 
-# Hey, I'm Duque Ortega Mutis 👋
+# Duque Ortega Mutis — MLOps Engineer
 
-**MLOps Engineer** | Multi-Cloud K8s | Terraform | 395+ Tests | Entrepreneur → MLOps
+**I don't just deploy ML models. I diagnose why they break at 2am.**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-blue?style=for-the-badge&logo=github-pages&logoColor=white)](https://duqueom.github.io/ML-MLOps-Portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/DuqueOM)
 [![YouTube](https://img.shields.io/badge/YouTube-3min_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/7dFFqq2ROPw)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:DuqueOrtegaMutis@gmail.com)
 
+---
+
+## What Makes This Portfolio Different
+
 </div>
 
+Most ML portfolios show models that score well. This one shows what happens **after you deploy** — the incidents, the wrong decisions corrected, and 17 Architectural Decision Records documenting every trade-off with measured data.
+
+```
+Three production incidents diagnosed from first principles:
+
+ 81% error rate under load  →  uvicorn --workers is anti-pattern under K8s
+                                (shared CPU budget = thrashing, not parallelism)
+                                Fixed: asyncio + ThreadPoolExecutor, GIL analysis
+                                Result: 81% errors → 0%, 2000m CPU → 1000m
+
+ SHAP returning all zeros   →  TreeExplainer incompatible with StackingClassifier
+                                Fixed: KernelExplainer in original feature space
+                                Evaluated 4 alternatives before deciding
+
+ HPA never scales down      →  Memory-based HPA + fixed ML footprint
+                                = mathematically impossible to scale down
+                                Fixed: CPU-only HPA, 3→1 pods in 8 minutes
+```
+
 ---
-
-## About Me
-
-MLOps Engineer who architects systems, not just deploys them. Built a production multi-cloud ML platform from scratch (GKE + EKS), documenting **17 Architectural Decision Records** with measured trade-offs — the same engineering discipline used by mid-to-senior platform teams.
-
-What I do differently: I diagnose production incidents from first principles and document the reasoning, not just the fix.
-
-- **AWS Certified Machine Learning — Specialty** | TripleTen Data Science Graduate
-- Open to **MLOps / ML Infrastructure / ML Platform** roles (Remote preferred)
-- Mexico City | Spanish (Native) & English (B2)
-
----
-
-## Flagship Project
-
-### [ML-MLOps-Portfolio](https://github.com/DuqueOM/ML-MLOps-Portfolio) — 3 ML Services on GKE + EKS
 
 <div align="center">
 
-[![CI Pipeline](https://github.com/DuqueOM/ML-MLOps-Portfolio/actions/workflows/ci-mlops.yml/badge.svg)](https://github.com/DuqueOM/ML-MLOps-Portfolio/actions/workflows/ci-mlops.yml)
+## Flagship Project — [ML-MLOps-Portfolio](https://github.com/DuqueOM/ML-MLOps-Portfolio)
+
+**3 ML services on GKE + EKS · 17 ADRs · 395+ tests · Multi-cloud Terraform**
+
+[![CI](https://github.com/DuqueOM/ML-MLOps-Portfolio/actions/workflows/ci-mlops.yml/badge.svg)](https://github.com/DuqueOM/ML-MLOps-Portfolio/actions/workflows/ci-mlops.yml)
 [![codecov](https://codecov.io/gh/DuqueOM/ML-MLOps-Portfolio/branch/main/graph/badge.svg)](https://codecov.io/gh/DuqueOM/ML-MLOps-Portfolio)
-[![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12-blue.svg)](https://github.com/DuqueOM/ML-MLOps-Portfolio)
 [![K8s](https://img.shields.io/badge/K8s-GKE%20%2B%20EKS-326CE5?logo=kubernetes&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/k8s)
 [![Terraform](https://img.shields.io/badge/Terraform-Multi--Cloud-7B42BC?logo=terraform&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/infra/terraform)
-[![Docs](https://img.shields.io/badge/Docs-GitHub_Pages-blue?logo=github)](https://duqueom.github.io/ML-MLOps-Portfolio/)
 
 </div>
 
-<div align="center">
+| Project | Metric | Key Engineering Decision |
+|---------|--------|--------------------------|
+| [BankChurn Predictor](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/BankChurn-Predictor) | AUC **0.87** · 90% cov | Async inference via ThreadPoolExecutor · threshold 0.35 (30:1 cost ratio) |
+| [NLPInsight Analyzer](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/NLPInsight-Analyzer) | Acc **80.6%** · 98% cov | Upgraded from curated dataset to 11.9K real noisy tweets — honest benchmark |
+| [ChicagoTaxi Pipeline](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/ChicagoTaxi-Demand-Pipeline) | R² **0.96** · 6.3M rows | Found & fixed data leakage · temporal split · R² 0.905→0.965 |
 
-| Project | Type | Key Metric | Latency p50 (GCP / AWS) | Tests |
-|---------|------|------------|:-----------------------:|-------|
-| [BankChurn Predictor](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/BankChurn-Predictor) | Classification | AUC 0.87 | 200ms / 110ms | 199 tests, 90% cov |
-| [NLPInsight Analyzer](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/NLPInsight-Analyzer) | NLP Sentiment | Acc 80.6% | 78ms / 100ms | 74 tests, 98% cov |
-| [ChicagoTaxi Pipeline](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/ChicagoTaxi-Demand-Pipeline) | Demand Forecasting | R² 0.96 | 100ms / 120ms | 122 tests |
+**Selected "Don't Build" decisions** *(harder than building)*:
+- Removed CarVision because MAPE 32.9% is not defensible — documented in ADR-009
+- Deferred Feature Store with full Feast architecture designed for when it's needed — ADR-007
+- Rejected Airflow for drift retraining: CronJob→GitHub Actions is sufficient — ADR-006
 
-</div>
-
-**What makes it different — incidents diagnosed, not just tools listed:**
-- **81% error rate → 0%**: Diagnosed `uvicorn --workers N` anti-pattern under K8s (shared CPU budget → thrashing). Resolved via async inference + ThreadPoolExecutor exploiting GIL release in sklearn C extensions (ADR-014/015)
-- **HPA never scales down**: Proved mathematically that memory-based HPA fails for ML services (fixed RAM footprint). CPU-only HPA achieved correct 3→1 scale-down (ADR-001)
-- **SHAP all-zero bug**: Traced to TreeExplainer incompatibility with StackingClassifier. Implemented KernelExplainer in original 10-feature space for business interpretability (ADR-010)
-- **Data leakage fix**: Found same-period aggregates in ChicagoTaxi. Replaced with lag features + temporal split. R² 0.905 → 0.965 (ADR-009)
-- **17 ADRs**, 395+ tests (90–98% cov), Terraform multi-cloud IaC, 10-job CI/CD matrix, daily drift detection, Prometheus + Grafana (26 panels)
-
-<div align="center">
-
-| GKE + EKS Side-by-Side | Grafana Monitoring |
-|:---:|:---:|
-| ![Multi-Cloud](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/aws-terminal/36-multicloud-side-by-side.png) | ![Grafana](https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/screenshots/monitoring/34-grafana-dashboard.png) |
-
-<a href="https://youtu.be/7dFFqq2ROPw">
-  <img src="https://img.shields.io/badge/▶_Watch_3min_Demo-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Demo">
-</a>
-
-</div>
+📐 [View all 17 ADRs →](https://duqueom.github.io/ML-MLOps-Portfolio/architecture/decisions/) &nbsp;|&nbsp; 📋 [Engineering Highlights →](https://github.com/DuqueOM/ML-MLOps-Portfolio/blob/main/ENGINEERING_HIGHLIGHTS.md) &nbsp;|&nbsp; 📺 [3min Demo →](https://youtu.be/7dFFqq2ROPw)
 
 ---
 
-## Selected Engineering Decisions ([all 17 ADRs](https://duqueom.github.io/ML-MLOps-Portfolio/architecture/decisions/))
+## Stack
 
-| ADR | Decision | The Harder Choice |
-|-----|----------|-------------------|
-| 001 | CPU-only HPA | Proved memory HPA mathematically fails for ML |
-| 007 | No Feature Store | Designed Feast architecture for when it IS needed |
-| 009 | Simplification | Removed a project because MAPE 32.9% isn't defensible |
-| 010 | SHAP KernelExplainer | Diagnosed production bug, evaluated 4 alternatives |
-| 014/015 | Single-worker + async | Found uvicorn anti-pattern → 81% errors → 0% |
-| 016 | GCP/AWS parity | Chose $24/mo over $145/mo, documented the SLA math |
+`Kubernetes` `GKE` `EKS` `Terraform` `GitHub Actions` `FastAPI` `MLflow` `Prometheus` `Grafana`
+`Argo Rollouts` `Docker` `PySpark` `LightGBM` `XGBoost` `SHAP` `Evidently` `DVC` `Pandera`
+`GCP` `AWS` `SageMaker` `Vertex AI` `OpenTelemetry` `Python 3.11+`
 
-## Tech Stack
+**AWS Certified Machine Learning — Specialty** · TripleTen Data Science Graduate · 14 years ops → MLOps
 
-<div align="center">
+---
 
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio)
-[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/k8s)
-[![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/infra/terraform)
-[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/blob/main/.github/workflows/ci-mlops.yml)
-[![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio)
-[![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/infra/terraform/gcp)
-[![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/infra/terraform/aws)
-[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio)
-[![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
-[![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apache-spark&logoColor=white)](https://spark.apache.org)
-[![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)](https://github.com/DuqueOM/ML-MLOps-Portfolio)
-[![Codecov](https://img.shields.io/badge/Codecov-F01F7A?style=flat-square&logo=codecov&logoColor=white)](https://app.codecov.io/gh/DuqueOM/ML-MLOps-Portfolio)
+## Other Projects
 
-</div>
+| Repo | Description |
+|------|-------------|
+| [RestoPilotAI](https://github.com/DuqueOM/RestoPilotAI) | Full-stack AI app: FastAPI + Next.js 15 + Gemini · 17-stage agentic pipeline · 80+ endpoints |
+| [Applied-ML-Projects](https://github.com/DuqueOM/Applied-ML-Projects) | 4 production-oriented ML projects · FastAPI · Docker · drift detection |
 
 ---
 
 ## AI Transparency
 
-These projects use AI-assisted tools (Cursor / Windsurf Cascade) for code generation and boilerplate acceleration. All architectural decisions, deployment strategy, and evaluation methodology are the author's. AI tools are accelerators, not replacements for understanding.
+These projects use AI-assisted tools (Cursor / Windsurf Cascade) for code generation and boilerplate. All architectural decisions, system design, trade-off analysis, and incident resolution are the author's. AI tools accelerate throughput — they don't replace engineering judgment.
 
 ---
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-DuqueOrtegaMutis@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:DuqueOrtegaMutis@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-DuqueOM-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/DuqueOM)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live_Docs-blue?style=flat-square&logo=github-pages&logoColor=white)](https://duqueom.github.io/ML-MLOps-Portfolio/)
-[![YouTube](https://img.shields.io/badge/YouTube-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/7dFFqq2ROPw)
-
-*"I don't just deploy models — I diagnose why they fail and document the reasoning."*
+*Open to MLOps / ML Platform / ML Infrastructure roles — Remote preferred — Mexico City*
 
 </div>
