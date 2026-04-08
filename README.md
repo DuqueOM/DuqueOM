@@ -66,11 +66,33 @@ Three production incidents diagnosed from first principles:
 
 ---
 
+## Agentic Development Configuration
+
+The portfolio includes a production-grade agentic setup (`AGENTS.md` + `.windsurf/`) that
+encodes 17 ADRs and 3 production incidents into the development environment itself.
+
+```
+.windsurf/
+├── rules/       7 context-aware rules (glob-triggered per file type)
+├── skills/      6 operational procedures (debug, deploy-gke, deploy-aws,
+│                drift-detection, model-retrain, release-checklist)
+└── workflows/   6 structured prompt workflows (/incident, /retrain,
+                 /release, /load-test, /new-adr, /drift-check)
+```
+
+The agent knows: never use `uvicorn --workers N` under K8s (ADR-014), always use
+`KernelExplainer` for SHAP with StackingClassifier (ADR-010), CPU targets are
+50%/60%/60% — not 70% (ADR-001). Operational knowledge encoded, not just referenced.
+
+→ [AGENTS.md](https://github.com/DuqueOM/ML-MLOps-Portfolio/blob/main/AGENTS.md) &nbsp;|&nbsp; [.windsurf/](https://github.com/DuqueOM/ML-MLOps-Portfolio/tree/main/.windsurf)
+
+---
+
 ## Stack
 
 `Kubernetes` `GKE` `EKS` `Terraform` `GitHub Actions` `FastAPI` `MLflow` `Prometheus` `Grafana`
 `Argo Rollouts` `Docker` `PySpark` `LightGBM` `XGBoost` `SHAP` `Evidently` `DVC` `Pandera`
-`GCP` `AWS` `SageMaker` `Vertex AI` `OpenTelemetry` `Python 3.11+`
+`GCP` `AWS` `SageMaker` `Vertex AI` `OpenTelemetry` `Python 3.11+` `Windsurf Cascade`
 
 **AWS Certified Machine Learning — Specialty** · TripleTen Data Science Graduate · 14 years ops → MLOps
 
@@ -86,7 +108,12 @@ Three production incidents diagnosed from first principles:
 
 ## AI Transparency
 
-These projects use AI-assisted tools (Cursor / Windsurf Cascade) for code generation and boilerplate. All architectural decisions, system design, trade-off analysis, and incident resolution are the author's. AI tools accelerate throughput — they don't replace engineering judgment.
+These projects use AI-assisted tools (Windsurf Cascade) for code generation and boilerplate.
+All architectural decisions, system design, trade-off analysis, and incident resolution are the
+author's. AI tools accelerate throughput — they don't replace engineering judgment.
+
+The `.windsurf/` configuration is itself a demonstration of this philosophy: the agent is
+constrained by documented decisions, not given free rein.
 
 ---
 
