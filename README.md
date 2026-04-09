@@ -1,6 +1,6 @@
 <div align="center">
 
-# Duque Ortega Mutis — MLOps Engineer
+# Duque Ortega Mutis — MLOps Engineer (Production-Focused)
 
 **I don't just deploy ML models. I diagnose why they break at 2am.**
 
