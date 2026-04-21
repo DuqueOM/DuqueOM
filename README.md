@@ -94,7 +94,7 @@ The agent knows: never use `uvicorn --workers N` under K8s (ADR-014), always use
 `Argo Rollouts` `Docker` `PySpark` `LightGBM` `XGBoost` `SHAP` `Evidently` `DVC` `Pandera`
 `GCP` `AWS` `SageMaker` `Vertex AI` `OpenTelemetry` `Python 3.11+` `Windsurf Cascade`
 
-**AWS Certified Machine Learning — Specialty** · TripleTen Data Science Graduate · 14 years ops → MLOps
+**AWS Certified Machine Learning Engineer – Associate** · TripleTen Data Science Graduate · 14 years ops → MLOps
 
 ---
 
