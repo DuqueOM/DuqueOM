@@ -15,7 +15,7 @@
 
 </div>
 
-Most ML portfolios show models that score well. This one shows what happens **after you deploy** — the incidents, the wrong decisions corrected, and 17 Architectural Decision Records documenting every trade-off with measured data.
+Most ML portfolios show models that score well. This one shows what happens **after you deploy** — the incidents, the wrong decisions corrected, and 18 Architectural Decision Records documenting every trade-off with measured data.
 
 ```
 Three production incidents diagnosed from first principles:
@@ -40,7 +40,7 @@ Three production incidents diagnosed from first principles:
 
 ## Flagship Project — [ML-MLOps-Portfolio](https://github.com/DuqueOM/ML-MLOps-Portfolio)
 
-**3 ML services on GKE + EKS · 17 ADRs · 395+ tests · Multi-cloud Terraform**
+**3 ML services on GKE + EKS · 18 ADRs · 395+ tests · Multi-cloud Terraform**
 
 [![CI](https://github.com/DuqueOM/ML-MLOps-Portfolio/actions/workflows/ci-mlops.yml/badge.svg)](https://github.com/DuqueOM/ML-MLOps-Portfolio/actions/workflows/ci-mlops.yml)
 [![codecov](https://codecov.io/gh/DuqueOM/ML-MLOps-Portfolio/branch/main/graph/badge.svg)](https://codecov.io/gh/DuqueOM/ML-MLOps-Portfolio)
@@ -62,14 +62,14 @@ Three production incidents diagnosed from first principles:
 - Deferred Feature Store with full Feast architecture designed for when it's needed — ADR-007
 - Rejected Airflow for drift retraining: CronJob→GitHub Actions is sufficient — ADR-006
 
-📐 [View all 17 ADRs →](https://duqueom.github.io/ML-MLOps-Portfolio/architecture/decisions/) &nbsp;|&nbsp; 📋 [Engineering Highlights →](https://github.com/DuqueOM/ML-MLOps-Portfolio/blob/main/ENGINEERING_HIGHLIGHTS.md) &nbsp;|&nbsp; 📺 [3min Demo →](https://youtu.be/7dFFqq2ROPw)
+📐 [View all 18 ADRs →](https://duqueom.github.io/ML-MLOps-Portfolio/architecture/decisions/) &nbsp;|&nbsp; 📋 [Engineering Highlights →](https://github.com/DuqueOM/ML-MLOps-Portfolio/blob/main/ENGINEERING_HIGHLIGHTS.md) &nbsp;|&nbsp; 📺 [3min Demo →](https://youtu.be/7dFFqq2ROPw)
 
 ---
 
 ## Agentic Development Configuration
 
 The portfolio includes a production-grade agentic setup (`AGENTS.md` + `.windsurf/`) that
-encodes 17 ADRs and 3 production incidents into the development environment itself.
+encodes 18 ADRs and 3 production incidents into the development environment itself.
 
 ```
 .windsurf/
@@ -103,7 +103,7 @@ The agent knows: never use `uvicorn --workers N` under K8s (ADR-014), always use
 | Repo | Description |
 |------|-------------|
 | [ML-MLOps-Production-Template](https://github.com/DuqueOM/ML-MLOps-Production-Template) | Production-grade ML template: FastAPI + Kubernetes (GKE/EKS) + Terraform · CI/CD pipelines · MLflow + Pandera · drift detection · Prometheus/Grafana · multi-cloud architecture |
-| [RestoPilotAI](https://github.com/DuqueOM/RestoPilotAI) | Full-stack AI app: FastAPI + Next.js 15 + Gemini · 17-stage agentic pipeline · 80+ endpoints |
+| [RestoPilotAI](https://github.com/DuqueOM/RestoPilotAI) | Full-stack AI app: FastAPI + Next.js 15 + Gemini · 18-stage agentic pipeline · 80+ endpoints |
 
 ---
 
