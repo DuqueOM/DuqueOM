@@ -102,11 +102,7 @@ The agent knows: never use `uvicorn --workers N` under K8s (ADR-014), always use
 
 | Repo | Description |
 |------|-------------|
-<<<<<<< HEAD
-| [ML-MLOps-Production-Template](https://github.com/DuqueOM/ML-MLOps-Production-Template) | Production-grade ML template: FastAPI + Kubernetes (GKE/EKS) + Terraform · CI/CD pipelines · MLflow + Pandera · drift detection · Prometheus/Grafana · multi-cloud architecture |
-=======
 | [ML-MLOps-Production-Template](https://github.com/DuqueOM/ML-MLOps-Production-Template) **v1.6** | Enterprise agentic ML template: 19 encoded anti-patterns · **Agent Behavior Protocol** (AUTO/CONSULT/STOP) · 12 rules + 11 skills + 10 workflows (Windsurf/Cursor/Claude Code parity) · 6-phase EDA with leakage gate · **SLSA L2 supply chain** (Cosign keyless + Syft SBOM + Kyverno admission) · IRSA/Workload Identity · FastAPI + K8s (GKE/EKS) + Terraform · MLflow + Pandera · PSI drift detection · Prometheus/Grafana |
->>>>>>> 8fbf0c6 (docs: update ML-MLOps-Production-Template entry to v1.6)
 | [RestoPilotAI](https://github.com/DuqueOM/RestoPilotAI) | Full-stack AI app: FastAPI + Next.js 15 + Gemini · 17-stage agentic pipeline · 80+ endpoints |
 
 ---
