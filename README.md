@@ -16,28 +16,13 @@
 ## Three production incidents — diagnosed from first principles, not guesswork
 
 ```
-Incident 1: 81% error rate under load
-  Root cause: uvicorn --workers N on K8s → workers share one CPU budget
-              → CPU thrashing, not parallelism
-  Fix:        asyncio.run_in_executor + ThreadPoolExecutor(4)
-              sklearn C extensions release the GIL — this is the key
-  Result:     81% errors → 0% · 2000m CPU → 1000m
-  Documented: ADR-014 + ADR-015
+Selected Production Incidents (Root Cause → Fix → Impact)
 
-Incident 2: SHAP returning all zeros in production
-  Root cause: TreeExplainer incompatible with StackingClassifier
-              Evaluated 4 alternatives before deciding
-  Fix:        KernelExplainer in original 10-feature space
-              (business-interpretable, not 38 encoded columns)
-  Documented: ADR-010
+81% error rate under load: Caused by uvicorn --workers N on Kubernetes, where workers share a single CPU budget, leading to CPU thrashing instead of true parallelism. Resolved using asyncio.run_in_executor with ThreadPoolExecutor(4), leveraging GIL release in sklearn C extensions. Result: 81% → 0% error rate, CPU reduced from 2000m → 1000m. (ADR-014, ADR-015)
 
-Incident 3: HPA never scaled down
-  Root cause: Memory-based HPA + fixed ML footprint
-              ceil(replicas × usage/target) ≥ current replicas — always
-              Mathematically impossible to scale down
-  Fix:        CPU-only HPA — CPU correlates with traffic, memory doesn't
-              3 replicas → 1 in 8 minutes
-  Documented: ADR-001
+SHAP returning all zeros in production: Root cause was incompatibility between TreeExplainer and StackingClassifier. After evaluating four alternatives, implemented KernelExplainer in the original 10-feature space (business-interpretable vs 38 encoded features). (ADR-010)
+
+HPA never scaling down: Memory-based HPA with fixed ML footprint made scale-down mathematically impossible (ceil(replicas × usage/target) ≥ current). Switched to CPU-based HPA, aligning scaling with traffic patterns. Result: 3 → 1 replicas in 8 minutes. (ADR-001)
 ```
 
 ---
@@ -88,14 +73,10 @@ Most ML portfolios show models that score well. This one shows what happens **af
 </div>
 
 ```
-Most templates give you files.
-This one gives you a behavioral protocol.
+Most templates provide files; this one enforces a behavioral protocol.
+Defines AUTO / CONSULT / STOP across 21 operations, where production deploys require explicit approval and cannot be bypassed. If env=production and audit.passed=False, DeploymentRequest fails at construction.
 
-AUTO / CONSULT / STOP — 21 operations mapped to agent modes.
-STOP on production deploys cannot be bypassed by human insistence.
-If env=production and audit.passed=False → DeploymentRequest refuses to construct.
-
-The invariants aren't in the README. They're in the code.
+The invariants aren’t in the README — they’re enforced in code.
 ```
 
 | Layer | What's encoded |
@@ -107,9 +88,10 @@ The invariants aren't in the README. They're in the code.
 | **9 ADRs** | Each decision documented with alternatives rejected and revisit triggers |
 
 ```bash
-# Zero to working fraud detection service in one command
-git clone https://github.com/DuqueOM/ML-MLOps-Production-Template.git
-cd ML-MLOps-Production-Template && make bootstrap
+
+Zero to production-ready fraud detection service in one command:
+git clone https://github.com/DuqueOM/ML-MLOps-Production-Template.git && cd ML-MLOps-Production-Template && make bootstrap
+
 ```
 
 → [Template repo](https://github.com/DuqueOM/ML-MLOps-Production-Template) &nbsp;|&nbsp; [QUICK_START.md](https://github.com/DuqueOM/ML-MLOps-Production-Template/blob/main/QUICK_START.md) &nbsp;|&nbsp; [9 ADRs](https://github.com/DuqueOM/ML-MLOps-Production-Template/tree/main/docs/decisions)
