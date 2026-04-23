@@ -54,6 +54,8 @@ cd ML-MLOps-Production-Template && make bootstrap
 
 ---
 
+<div align="center">
+
 ## Production Portfolio — [ML-MLOps-Portfolio](https://github.com/DuqueOM/ML-MLOps-Portfolio)
 
 **The source of truth the template was extracted from: 3 live ML services, real incidents, real data.**
@@ -61,13 +63,11 @@ cd ML-MLOps-Production-Template && make bootstrap
 [![CI](https://github.com/DuqueOM/ML-MLOps-Portfolio/actions/workflows/ci-mlops.yml/badge.svg)](https://github.com/DuqueOM/ML-MLOps-Portfolio/actions/workflows/ci-mlops.yml)
 [![codecov](https://codecov.io/gh/DuqueOM/ML-MLOps-Portfolio/branch/main/graph/badge.svg)](https://codecov.io/gh/DuqueOM/ML-MLOps-Portfolio)
 
-<div align="center">
-
 <img src="https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/gifs/portfolio-demo.gif" alt="Portfolio Demo" width="600">
 
-### Three production incidents — diagnosed from first principles, not guesswork:
-
 </div>
+
+### Three production incidents — diagnosed from first principles, not guesswork:
 
 ```
 Incident 1: 81% error rate under load
