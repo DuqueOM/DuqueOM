@@ -75,6 +75,8 @@ Most ML portfolios show models that score well. This one shows what happens **af
 
 ---
 
+<div align="center">
+
 ## Flagship Open-Source — [ML-MLOps-Production-Template](https://github.com/DuqueOM/ML-MLOps-Production-Template)
 
 > *The patterns my portfolio cost $200/mo and 18 ADRs to learn — packaged so other teams don't have to.*
@@ -82,6 +84,8 @@ Most ML portfolios show models that score well. This one shows what happens **af
 [![Release](https://img.shields.io/github/v/release/DuqueOM/ML-MLOps-Production-Template.svg)](https://github.com/DuqueOM/ML-MLOps-Production-Template/releases)
 [![Anti-Patterns](https://img.shields.io/badge/anti--patterns-22%20encoded-red.svg)](https://github.com/DuqueOM/ML-MLOps-Production-Template#anti-pattern-detection)
 [![Agentic](https://img.shields.io/badge/agentic-Windsurf_%7C_Claude_Code_%7C_Cursor-blueviolet.svg)](https://github.com/DuqueOM/ML-MLOps-Production-Template#agentic-system)
+
+</div>
 
 ```
 Most templates give you files.
