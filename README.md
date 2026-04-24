@@ -16,28 +16,20 @@
 ## Three production incidents — diagnosed from first principles, not guesswork
 
 ```
-Incident 1: 81% error rate under load
-  Root cause: uvicorn --workers N on K8s → workers share one CPU budget
-              → CPU thrashing, not parallelism
-  Fix:        asyncio.run_in_executor + ThreadPoolExecutor(4)
-              sklearn C extensions release the GIL — this is the key
-  Result:     81% errors → 0% · 2000m CPU → 1000m
-  Documented: ADR-014 + ADR-015
+Three production incidents diagnosed from first principles:
 
-Incident 2: SHAP returning all zeros in production
-  Root cause: TreeExplainer incompatible with StackingClassifier
-              Evaluated 4 alternatives before deciding
-  Fix:        KernelExplainer in original 10-feature space
-              (business-interpretable, not 38 encoded columns)
-  Documented: ADR-010
+ 81% error rate under load  →  uvicorn --workers is anti-pattern under K8s
+                                (shared CPU budget = thrashing, not parallelism)
+                                Fixed: asyncio + ThreadPoolExecutor, GIL analysis
+                                Result: 81% errors → 0%, 2000m CPU → 1000m
 
-Incident 3: HPA never scaled down
-  Root cause: Memory-based HPA + fixed ML footprint
-              ceil(replicas × usage/target) ≥ current replicas — always
-              Mathematically impossible to scale down
-  Fix:        CPU-only HPA — CPU correlates with traffic, memory doesn't
-              3 replicas → 1 in 8 minutes
-  Documented: ADR-001
+ SHAP returning all zeros   →  TreeExplainer incompatible with StackingClassifier
+                                Fixed: KernelExplainer in original feature space
+                                Evaluated 4 alternatives before deciding
+
+ HPA never scales down      →  Memory-based HPA + fixed ML footprint
+                                = mathematically impossible to scale down
+                                Fixed: CPU-only HPA, 3→1 pods in 8 minutes
 ```
 
 ---
