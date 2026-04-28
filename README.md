@@ -62,7 +62,7 @@ The invariants aren't in the README. They're in the code.
 | **SLSA L2 supply chain** | Gitleaks → Trivy → Syft SBOM → Cosign keyless (OIDC) → Kyverno admission |
 | **Closed-loop monitoring** | Ground truth ingestion · Sliced performance · Champion/Challenger (McNemar + bootstrap ΔAUC) |
 | **Tri-IDE native** | Windsurf · Claude Code · Cursor — same invariants, native config for each |
-| **9 ADRs** | Each decision documented with alternatives rejected and revisit triggers |
+| **19 ADRs** | Each decision documented with alternatives rejected and revisit triggers |
 
 ```bash
 # Zero to working fraud detection service in one command
