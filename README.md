@@ -9,9 +9,11 @@
 [![YouTube](https://img.shields.io/badge/YouTube-3min_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/7dFFqq2ROPw)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:DuqueOrtegaMutis@gmail.com)
 
-</div>
-
 ---
+> *MLOps engineer with a production multi-cloud platform deployed from scratch (GKE + EKS, 6 K8s services, 395+ tests). 14 years running 5 businesses — managing teams, P&L, and vendor operations — now applied to building reliable ML systems.*
+---
+
+</div>
 
 ## Three production incidents — diagnosed from first principles, not guesswork
 
