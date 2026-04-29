@@ -42,7 +42,7 @@ Three production incidents diagnosed from first principles:
 > *The patterns my portfolio cost $200/mo and 18 ADRs to learn — packaged so other teams don't have to.*
 
 [![Release](https://img.shields.io/github/v/release/DuqueOM/ML-MLOps-Production-Template.svg)](https://github.com/DuqueOM/ML-MLOps-Production-Template/releases)
-[![Anti-Patterns](https://img.shields.io/badge/anti--patterns-30%20encoded-red.svg)](https://github.com/DuqueOM/ML-MLOps-Production-Template#anti-pattern-detection)
+[![Anti-Patterns](https://img.shields.io/badge/anti--patterns-32%20encoded-red.svg)](https://github.com/DuqueOM/ML-MLOps-Production-Template#anti-patterns-encoded)
 [![Agentic](https://img.shields.io/badge/agentic-Windsurf_%7C_Claude_Code_%7C_Cursor-blueviolet.svg)](https://github.com/DuqueOM/ML-MLOps-Production-Template#agentic-system)
 
 </div>
@@ -60,7 +60,7 @@ The invariants aren't in the README. They're in the code.
 
 | Layer | What's encoded |
 |-------|----------------|
-| **30 anti-patterns** (D-01→D-30) | Runtime · Training · Infrastructure · EDA · Security · Closed-loop monitoring |
+| **32 anti-patterns** (D-01→D-32) | Runtime · Training · Infrastructure · EDA · Security · Closed-loop monitoring |
 | **SLSA L2 supply chain** | Gitleaks → Trivy → Syft SBOM → Cosign keyless (OIDC) → Kyverno admission |
 | **Closed-loop monitoring** | Ground truth ingestion · Sliced performance · Champion/Challenger (McNemar + bootstrap ΔAUC) |
 | **Tri-IDE native** | Windsurf · Claude Code · Cursor — same invariants, native config for each |
