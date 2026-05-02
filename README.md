@@ -156,3 +156,5 @@ That governance design is original and independently authored.
 *Open to MLOps · ML Platform · ML Infrastructure roles — Remote preferred — Mexico City (CST)*
 
 </div>
+
+
