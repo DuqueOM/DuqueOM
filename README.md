@@ -79,17 +79,22 @@ how the system actually behaves.
 
 The template packages those lessons into a reusable starting point:
 
-| Area | What it helps with |
-|------|---------------------|
-| **Service scaffolding** | FastAPI, model loading, testing, and health checks. |
-| **MLOps workflow** | MLflow, CI/CD, drift detection, retraining hooks, and audit trail. |
-| **Cloud deployment** | Kubernetes, Terraform, GCP/AWS examples, and environment promotion. |
-| **Safety defaults** | Secret scanning, image scanning, SBOM/signing patterns, and deployment guardrails. |
-| **Agent-assisted development** | AUTO / CONSULT / STOP workflow rules so AI tools stay inside documented constraints. |
+| Layer | What's encoded |
+|-------|----------------|
+| **32 anti-patterns (D-01→D-32)** | Runtime · Training · Infrastructure · EDA · Security · Closed-loop monitoring |
+| **SLSA L2 supply chain** | Gitleaks → Trivy → Syft SBOM → Cosign keyless (OIDC) → Kyverno admission |
+| **Closed-loop monitoring** | Ground truth ingestion · Sliced performance · Champion/Challenger (McNemar + bootstrap ΔAUC) |
+| **Quad-IDE native** | Windsurf · Claude Code · Cursor · Codex — same invariants, native config for each |
+| **24 ADRs** | Each decision documented with alternatives rejected and revisit triggers |
 
-[Template repository](https://github.com/DuqueOM/ML-MLOps-Production-Template)
-| [Quick Start](https://github.com/DuqueOM/ML-MLOps-Production-Template/blob/main/QUICK_START.md)
-| [Decision Records](https://github.com/DuqueOM/ML-MLOps-Production-Template/tree/main/docs/decisions)
+```bash
+# Zero to working fraud detection service in one command
+git clone https://github.com/DuqueOM/ML-MLOps-Production-Template.git
+cd ML-MLOps-Production-Template && make bootstrap
+
+```
+
+→ [Template repo](https://github.com/DuqueOM/ML-MLOps-Production-Template) &nbsp;|&nbsp; [QUICK_START.md](https://github.com/DuqueOM/ML-MLOps-Production-Template/blob/main/QUICK_START.md) &nbsp;|&nbsp; [24 ADRs](https://github.com/DuqueOM/ML-MLOps-Production-Template/tree/main/docs/decisions)
 
 ---
 
@@ -118,9 +123,7 @@ a thread pool. The result dropped the error rate to 0% and reduced CPU needs.
 That story matters because it shows the habit I want to bring to a junior role:
 measure the problem, understand the cause, fix it, and document the lesson.
 
-[Live portfolio site](https://duqueom.github.io/ML-MLOps-Portfolio/)
-| [GitHub repo](https://github.com/DuqueOM/ML-MLOps-Portfolio)
-| [Video demo](https://youtu.be/7dFFqq2ROPw)
+📐 [18 ADRs →](https://duqueom.github.io/ML-MLOps-Portfolio/architecture/decisions/) &nbsp;|&nbsp; 📋 [Engineering Highlights →](https://github.com/DuqueOM/ML-MLOps-Portfolio/blob/main/ENGINEERING_HIGHLIGHTS.md) &nbsp;|&nbsp; 📺 [3min Demo →](https://youtu.be/7dFFqq2ROPw)
 
 ---
 
@@ -130,7 +133,6 @@ measure the problem, understand the cause, fix it, and document the lesson.
 `Kubernetes` `Terraform` `GitHub Actions` `MLflow` `DVC` `Prometheus`
 `Grafana` `SHAP` `AWS` `GCP`
 
-**AWS Certified Machine Learning Engineer - Associate (MLA-C01)**<br>
 **TripleTen Data Science**<br>
 **14 years operations -> MLOps & Production ML**
 
