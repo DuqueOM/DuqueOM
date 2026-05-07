@@ -13,6 +13,26 @@
 
 ---
 
+## Three production incidents — diagnosed from first principles, not guesswork
+
+```
+Three production incidents diagnosed from first principles:
+
+ 81% error rate under load  →  uvicorn --workers is anti-pattern under K8s
+                                (shared CPU budget = thrashing, not parallelism)
+                                Fixed: asyncio + ThreadPoolExecutor, GIL analysis
+                                Result: 81% errors → 0%, 2000m CPU → 1000m
+
+ SHAP returning all zeros   →  TreeExplainer incompatible with StackingClassifier
+                                Fixed: KernelExplainer in original feature space
+                                Evaluated 4 alternatives before deciding
+
+ HPA never scales down      →  Memory-based HPA + fixed ML footprint
+                                = mathematically impossible to scale down
+                                Fixed: CPU-only HPA, 3→1 pods in 8 minutes
+```
+---
+
 ## About Me
 
 I am building my first formal career step in ML/MLOps after 14 years running
