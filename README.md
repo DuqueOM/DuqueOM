@@ -65,8 +65,11 @@ reusable patterns.
 | **Learning velocity** | I use open-source projects to turn new tools into working systems. |
 
 ---
+<div align="center">
 
 ## Flagship Open-Source — [ML-MLOps-Production-Template](https://github.com/DuqueOM/ML-MLOps-Production-Template)
+
+</div>
 
 Is a reusable foundation for teams that want safer defaults when moving machine
 learning services toward production.
@@ -97,7 +100,11 @@ cd ML-MLOps-Production-Template && make bootstrap
 
 ---
 
+<div align="center">
+
 ## Production Portfolio — [ML-MLOps-Portfolio](https://github.com/DuqueOM/ML-MLOps-Portfolio)
+
+</div>
 
 Shows three end-to-end ML projects built beyond notebooks: model training,
 APIs, containers, deployment artifacts, monitoring, tests, and documented
