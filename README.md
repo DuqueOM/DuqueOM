@@ -33,7 +33,11 @@ Three production incidents diagnosed from first principles:
 ```
 ---
 
-## About Me
+<div align="center">
+
+## [About Me](https://duqueom.github.io/ML-MLOps-Portfolio/about/)
+
+</div>
 
 I am building my first formal career step in ML/MLOps after 14 years running
 business operations, teams, vendors, budgets, and customer-facing processes.
@@ -54,7 +58,11 @@ reusable patterns.
 
 ---
 
-## What I Bring
+<div align="center">
+
+## [What I Bring](https://duqueom.github.io/ML-MLOps-Portfolio/recruiter-brief/)
+
+</div>
 
 | Strength | How it shows up |
 |---------|------------------|
@@ -67,7 +75,7 @@ reusable patterns.
 ---
 <div align="center">
 
-## Flagship Open-Source — [ML-MLOps-Production-Template](https://github.com/DuqueOM/ML-MLOps-Production-Template)
+## [Flagship Open-Source — ML-MLOps-Production-Template](https://github.com/DuqueOM/ML-MLOps-Production-Template)  
 
 </div>
 
@@ -102,7 +110,7 @@ cd ML-MLOps-Production-Template && make bootstrap
 
 <div align="center">
 
-## Production Portfolio — [ML-MLOps-Portfolio](https://github.com/DuqueOM/ML-MLOps-Portfolio)
+## [Production Portfolio — ML-MLOps-Portfolio](https://github.com/DuqueOM/ML-MLOps-Portfolio)
 
 </div>
 
