@@ -66,10 +66,9 @@ reusable patterns.
 
 ---
 
-## Featured Project - ML-MLOps Production Template
+## Flagship Open-Source — [ML-MLOps-Production-Template](https://github.com/DuqueOM/ML-MLOps-Production-Template)
 
-[**ML-MLOps-Production-Template**](https://github.com/DuqueOM/ML-MLOps-Production-Template)
-is a reusable foundation for teams that want safer defaults when moving machine
+Is a reusable foundation for teams that want safer defaults when moving machine
 learning services toward production.
 
 I created it after building my portfolio and seeing the same failure patterns
@@ -98,10 +97,9 @@ cd ML-MLOps-Production-Template && make bootstrap
 
 ---
 
-## ML/MLOps Portfolio
+## Production Portfolio — [ML-MLOps-Portfolio](https://github.com/DuqueOM/ML-MLOps-Portfolio)
 
-[**ML-MLOps-Portfolio**](https://github.com/DuqueOM/ML-MLOps-Portfolio)
-shows three end-to-end ML projects built beyond notebooks: model training,
+Shows three end-to-end ML projects built beyond notebooks: model training,
 APIs, containers, deployment artifacts, monitoring, tests, and documented
 engineering decisions.
 
