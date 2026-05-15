@@ -88,7 +88,7 @@ The template packages those lessons into a reusable starting point:
 | **SLSA L2 supply chain** | Gitleaks → Trivy → Syft SBOM → Cosign keyless (OIDC) → Kyverno admission |
 | **Closed-loop monitoring** | Ground truth ingestion · Sliced performance · Champion/Challenger (McNemar + bootstrap ΔAUC) |
 | **Quad-IDE native** | Windsurf · Claude Code · Cursor · Codex — same invariants, native config for each |
-| **24 ADRs** | Each decision documented with alternatives rejected and revisit triggers |
+| **26 ADRs** | Each decision documented with alternatives rejected and revisit triggers |
 
 ```bash
 # Zero to working fraud detection service in one command
@@ -97,7 +97,7 @@ cd ML-MLOps-Production-Template && make bootstrap
 
 ```
 
-→ [Template repo](https://github.com/DuqueOM/ML-MLOps-Production-Template) &nbsp;|&nbsp; [QUICK_START.md](https://github.com/DuqueOM/ML-MLOps-Production-Template/blob/main/QUICK_START.md) &nbsp;|&nbsp; [24 ADRs](https://github.com/DuqueOM/ML-MLOps-Production-Template/tree/main/docs/decisions)
+→ [Template repo](https://github.com/DuqueOM/ML-MLOps-Production-Template) &nbsp;|&nbsp; [QUICK_START.md](https://github.com/DuqueOM/ML-MLOps-Production-Template/blob/main/QUICK_START.md) &nbsp;|&nbsp; [26 ADRs](https://github.com/DuqueOM/ML-MLOps-Production-Template/tree/main/docs/decisions)
 
 ---
 
