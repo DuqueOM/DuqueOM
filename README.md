@@ -64,7 +64,7 @@ ML Platform / Data Engineering with ML workflows — evaluated on evidence, not 
 ---
 <div align="center">
 
-## Flagship Open-Source — [ML-MLOps-Production-Template](https://github.com/DuqueOM/ML-MLOps-Production-Template)  
+## Flagship Open-Source — [ml-service-template](https://github.com/DuqueOM/ml-service-template)  
 
 </div>
 
@@ -84,18 +84,19 @@ The template packages those lessons into a reusable starting point:
 | **SLSA L2 supply chain** | Gitleaks → Trivy → Syft SBOM → Cosign keyless (OIDC) → Kyverno admission, every CI Action pinned by SHA |
 | **Closed-loop monitoring** | Ground truth ingestion · Sliced performance · Champion/Challenger (McNemar + bootstrap ΔAUC) |
 | **Native-cloud edge protection** | Cloud Armor (GCP) / AWS WAF+Shield by default, Cloudflare opt-in for multi-cloud — never a third-party account forced onto the common single-cloud case |
-| **Governed AI-assisted development** | 26 skills, 18 rules, 18 workflows · agent behavior protocol (AUTO/CONSULT/STOP) · audit trail · eval gates — AI coding made reviewable, not hidden |
+| **Governed AI-assisted development** | 27 skills, 19 rules, 20 workflows · agent behavior protocol (AUTO/CONSULT/STOP) · audit trail · eval gates — AI coding made reviewable, not hidden |
+| **Audit-grade quality guardian** | 8 more anti-patterns (Q-01→Q-08) for standards that erode silently — unpinned actions, license drift, evidence-free releases — owned by a recurring 23-domain enterprise audit, not a one-off report |
 | **Quad-IDE native** | Devin · Cursor · Claude Code · Codex — same invariants, native config for each |
-| **42 ADRs** | Each decision documented with alternatives rejected and revisit triggers |
+| **43 ADRs** | Each decision documented with alternatives rejected and revisit triggers |
 
 ```bash
 # Zero to working fraud detection service in one command
-git clone https://github.com/DuqueOM/ML-MLOps-Production-Template.git
-cd ML-MLOps-Production-Template && make bootstrap
+git clone https://github.com/DuqueOM/ml-service-template.git
+cd ml-service-template && make bootstrap
 
 ```
 
-→ [Template repo](https://github.com/DuqueOM/ML-MLOps-Production-Template) &nbsp;|&nbsp; [QUICK_START.md](https://github.com/DuqueOM/ML-MLOps-Production-Template/blob/main/QUICK_START.md) &nbsp;|&nbsp; [42 ADRs](https://github.com/DuqueOM/ML-MLOps-Production-Template/tree/main/docs/decisions)
+→ [Template repo](https://github.com/DuqueOM/ml-service-template) &nbsp;|&nbsp; [QUICK_START.md](https://github.com/DuqueOM/ml-service-template/blob/main/QUICK_START.md) &nbsp;|&nbsp; [43 ADRs](https://github.com/DuqueOM/ml-service-template/tree/main/docs/decisions)
 
 ---
 
