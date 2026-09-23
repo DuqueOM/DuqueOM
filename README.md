@@ -6,7 +6,8 @@
 
 **I build ML systems that survive production.**<br>
 Three services deployed on GKE and EKS, three incidents measured and root-caused,
-and two open-source templates built from what they taught.<br>
+and two open-source templates built from what they taught — one for classical ML,
+one for deep learning, LLM and agents.<br>
 Fourteen years of operations leadership before the first model.
 
 [![Portfolio](https://img.shields.io/badge/Full_Portfolio-Live_Site-22D3EE?style=for-the-badge&logo=github-pages&logoColor=white)](https://duqueom.github.io/ML-MLOps-Portfolio/)
@@ -85,30 +86,32 @@ GKE + EKS · 395+ tests · 18 ADRs · load tests, drift detection and runbooks
 
 </div>
 
-**[`ml-service-template`](https://github.com/DuqueOM/ml-service-template)** scaffolds **one** governed ML service and
-then refuses to grow. That limit is an ADR, not an omission: widening it to cover feature stores, lakehouses and GenAI
-serving would destroy the property that makes it recommendable — it is small enough to read in an afternoon.
+**[`ml-service-template`](https://github.com/DuqueOM/ml-service-template)** governs **classical ML** — scikit-learn,
+XGBoost, LightGBM, single team, 1–5 models — and then refuses to grow. That limit is an ADR, not an omission: LLM/GenAI,
+feature stores and data contracts are each deferred there *with a revisit trigger*, because widening it would destroy
+the property that makes it recommendable — it is small enough to read in an afternoon.
 
-**[`ml-platform`](https://github.com/DuqueOM/ml-platform)** is what that refusal made necessary: the enterprise
-substrate several unlike projects share. It **consumes** the first through `copier` rather than replacing it.
+**[`ml-platform`](https://github.com/DuqueOM/ml-platform)** is what those deferrals made necessary: the enterprise
+substrate for the problem shapes the first one declines — deep learning, LLM/RAG and agents, alongside tabular. It
+**consumes** the first through `copier` rather than replacing it.
 
 | | `ml-service-template` | `ml-platform` |
 |---|---|---|
-| **Answers** | "I need one governed ML service in production" | "I need a substrate several unlike projects sit on" |
-| **Model kinds** | Tabular / classical ML — a stated limit | + time series, deep learning, LLM/RAG, agents |
+| **Answers** | "I need governed classical ML in production" | "I need a substrate spanning tabular, DL, LLM and agents" |
+| **Model kinds** | scikit-learn · XGBoost · LightGBM — a stated limit, 1–5 models | + time series, deep learning, LLM/RAG, agents |
 | **Data** | In-memory DataFrames, Pandera | Iceberg lakehouse, point-in-time joins with leakage detection, dbt |
 | **Ship it** | CronJob + GitHub Actions, governed `kubectl apply` | Airflow 3 + KFP → Vertex AI / SageMaker, ArgoCD GitOps |
 | **Governance** | 38 anti-patterns (D-01→D-38) + 8 audit-standard · 52 ADRs | Tooling triage: core / demonstrated / studied / **rejected** · 10 ADRs |
 | **Honesty gate** | Self-auditing docs-coherence CI gate | Status derived from the filesystem · **L4 printed at zero** |
 | **Read it in** | An afternoon | Not in an afternoon, and that is the trade |
 
-> **If you have one model to ship, the first is the right answer and the second is over-engineering.**
+> **If your models are classical ML, the first is the right answer and the second is over-engineering.**
 > Knowing which problems a tool should *not* absorb is the judgment this pair is evidence for.
 
 <div align="center">
 
-**[Template · one service →](https://duqueom.github.io/ML-MLOps-Portfolio/template/)** &nbsp;·&nbsp;
-**[Platform · many projects →](https://duqueom.github.io/ML-MLOps-Portfolio/ml-platform/)** &nbsp;·&nbsp;
+**[Template · classical ML →](https://duqueom.github.io/ML-MLOps-Portfolio/template/)** &nbsp;·&nbsp;
+**[Platform · DL, LLM & agents →](https://duqueom.github.io/ML-MLOps-Portfolio/ml-platform/)** &nbsp;·&nbsp;
 **[Side by side →](https://duqueom.github.io/ML-MLOps-Portfolio/related-projects/#the-two-templates-side-by-side)**
 
 <sub>The platform's LLM plane comes from <a href="https://github.com/DuqueOM/agent-local"><code>agent-local</code></a> —
