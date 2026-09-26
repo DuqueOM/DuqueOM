@@ -101,7 +101,7 @@ substrate for the problem shapes the first one declines — deep learning, LLM/R
 | **Model kinds** | scikit-learn · XGBoost · LightGBM — a stated limit, 1–5 models | + time series, deep learning, LLM/RAG, agents |
 | **Data** | In-memory DataFrames, Pandera | Iceberg lakehouse, point-in-time joins with leakage detection, dbt |
 | **Ship it** | CronJob + GitHub Actions, governed `kubectl apply` | Airflow 3 + KFP → Vertex AI / SageMaker, ArgoCD GitOps |
-| **Governance** | 38 anti-patterns (D-01→D-38) + 8 audit-standard · 52 ADRs | Tooling triage: core / demonstrated / studied / **rejected** · 10 ADRs |
+| **Governance** | 38 anti-patterns (D-01→D-38) + 8 audit-standard · 52 ADRs | Tooling triage: core / demonstrated / studied / **rejected** · 11 ADRs |
 | **Honesty gate** | Self-auditing docs-coherence CI gate | Status derived from the filesystem · **L4 printed at zero** |
 | **Read it in** | An afternoon | Not in an afternoon, and that is the trade |
 
