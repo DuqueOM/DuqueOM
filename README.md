@@ -1,8 +1,9 @@
 <div align="center">
 
-# Junior AI Engineer · LLM apps and agents · ML in production · Mexico City
+# Junior AI Engineer · LLM apps and agents · ML in production
 
-## Duque Ortega Mutis
+### Duque Ortega Mutis <br>
+Mexico City
 
 I design and build AI and ML systems end to end: data, model, API, container and cloud.
 Before tech, I ran my own businesses and operations for 14 years, so I build for real users and measurable results.
