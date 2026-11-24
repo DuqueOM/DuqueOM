@@ -5,9 +5,13 @@
 ### Duque Ortega Mutis <br>
 Mexico City
 
+</div>
+
 I design and build AI and ML systems end to end: data, model, API, container and cloud.
 Before tech, I ran my own businesses and operations for 14 years, so I build for real users and measurable results.
 I work with AI coding agents (Claude Code) for speed. The design, the decisions and the review are mine.
+
+<div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-22D3EE?style=for-the-badge&logo=github-pages&logoColor=white)](https://duqueom.github.io/ML-MLOps-Portfolio/)
 [![YouTube](https://img.shields.io/badge/Demo-3_min-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/7dFFqq2ROPw)
