@@ -1,6 +1,8 @@
-# Duque Ortega Mutis
+<div align="center">
 
-**Junior AI Engineer** · LLM apps and agents · ML in production · Mexico City
+# Junior AI Engineer · LLM apps and agents · ML in production · Mexico City
+
+## Duque Ortega Mutis
 
 I design and build AI and ML systems end to end: data, model, API, container and cloud.
 Before tech, I ran my own businesses and operations for 14 years, so I build for real users and measurable results.
@@ -10,6 +12,8 @@ I work with AI coding agents (Claude Code) for speed. The design, the decisions 
 [![YouTube](https://img.shields.io/badge/Demo-3_min-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/7dFFqq2ROPw)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/DuqueOM)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:DuqueOrtegaMutis@gmail.com)
+
+</div>
 
 ## Featured projects
 
@@ -24,7 +28,7 @@ with Terraform, CI/CD, MLflow and monitoring. Deployed to GKE and EKS in March 2
 I designed the architecture and made the decisions (18 ADRs); AI coding agents helped me build it faster.
 
 
-<img src="https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/gifs/portfolio-demo.gif" alt="Portfolio demo: the three ML services, their dashboards and predictions" width="580">
+<p align="center"><img src="https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/gifs/portfolio-demo.gif" alt="Portfolio demo: the three ML services, their dashboards and predictions" width="580"></p>
 
 Three production problems I found and fixed:
 
@@ -41,7 +45,7 @@ Reads selected text aloud on Windows with local neural voices, in Spanish and En
 I fine-tuned a Qwen3-TTS voice with LoRA on my own GPU (RTX 5070, 8 GB), chose the training setup and the final
 epoch, and used WavLM to compare voices. 15 ADRs record the decisions. Built with AI coding agents.
 
-<img src="https://raw.githubusercontent.com/DuqueOM/read_aloud/main/docs/media/demo.gif" alt="read_aloud demo: selected text is read aloud and each sentence is highlighted" width="580">
+<p align="center"><img src="https://raw.githubusercontent.com/DuqueOM/read_aloud/main/docs/media/demo.gif" alt="read_aloud demo: selected text is read aloud and each sentence is highlighted" width="580"></p>
 
 ## How I work
 
