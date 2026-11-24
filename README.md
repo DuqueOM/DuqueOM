@@ -6,7 +6,10 @@ I design and build AI and ML systems end to end: data, model, API, container and
 Before tech, I ran my own businesses and operations for 14 years, so I build for real users and measurable results.
 I work with AI coding agents (Claude Code) for speed. The design, the decisions and the review are mine.
 
-[Portfolio](https://duqueom.github.io/ML-MLOps-Portfolio/) · [LinkedIn](https://linkedin.com/in/DuqueOM) · [3-min demo](https://youtu.be/7dFFqq2ROPw) · [Email](mailto:DuqueOrtegaMutis@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-22D3EE?style=for-the-badge&logo=github-pages&logoColor=white)](https://duqueom.github.io/ML-MLOps-Portfolio/)
+[![YouTube](https://img.shields.io/badge/Demo-3_min-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/7dFFqq2ROPw)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/DuqueOM)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:DuqueOrtegaMutis@gmail.com)
 
 ## Featured projects
 
@@ -19,6 +22,10 @@ First release planned for January 2027.
 Churn prediction, financial sentiment and taxi-demand forecasting, served with FastAPI, Docker and Kubernetes,
 with Terraform, CI/CD, MLflow and monitoring. Deployed to GKE and EKS in March 2026, then shut down to save costs.
 I designed the architecture and made the decisions (18 ADRs); AI coding agents helped me build it faster.
+
+
+<img src="https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/gifs/portfolio-demo.gif" alt="Portfolio demo: the three ML services, their dashboards and predictions" width="580">
+
 Three production problems I found and fixed:
 
 ```
@@ -33,6 +40,8 @@ HPA never scales down      →  memory-based HPA with a fixed ML memory footprin
 Reads selected text aloud on Windows with local neural voices, in Spanish and English in the same text, offline.
 I fine-tuned a Qwen3-TTS voice with LoRA on my own GPU (RTX 5070, 8 GB), chose the training setup and the final
 epoch, and used WavLM to compare voices. 15 ADRs record the decisions. Built with AI coding agents.
+
+<img src="https://raw.githubusercontent.com/DuqueOM/read_aloud/main/docs/media/demo.gif" alt="read_aloud demo: selected text is read aloud and each sentence is highlighted" width="580">
 
 ## How I work
 
