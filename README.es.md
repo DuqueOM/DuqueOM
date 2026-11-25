@@ -63,7 +63,8 @@ voces. 15 ADRs registran las decisiones. Construida con agentes de programación
 - Empiezo por el problema: escribo la especificación, los límites y las decisiones (ADRs).
 - Construyo con agentes de programación con IA dentro de reglas que yo defino: pruebas primero, cambios pequeños y
   revisados, y controles de CI.
-- Mido: pruebas de carga, evaluaciones (evals) y reportes de incidentes con números.
+- Mido: pruebas de carga y evaluaciones (evals). Cuando algo falla, busco la causa con datos, lo arreglo y registro la
+  decisión en un ADR.
 
 ## Siguiente paso
 

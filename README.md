@@ -53,7 +53,7 @@ epoch, and used WavLM to compare voices. 15 ADRs record the decisions. Built wit
 
 - I start from the problem: I write the spec, the limits and the decisions (ADRs).
 - I build with AI coding agents inside rules I set: tests first, small reviewed changes, CI gates.
-- I measure: load tests, evals, and incident reports with numbers.
+- I measure: load tests and evals. When something fails, I find the cause with data, fix it, and record the decision in an ADR.
 
 ## Next step
 
