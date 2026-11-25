@@ -1,13 +1,10 @@
 <div align="center">
 
-# Junior AI Engineer · Apps con LLM y agentes · ML en producción
+# Junior AI Engineer · Apps con LLM y agentes · ML en producción · Ciudad de México
 
-### Duque Ortega Mutis <br>
-Ciudad de México
+## Duque Ortega Mutis
 
 [English](README.md) · Español
-
-</div>
 
 Soy AI Engineer junior (ingeniero de inteligencia artificial). Diseño y construyo sistemas de IA y de machine learning
 de principio a fin: datos, modelo, API, contenedor y nube. Trabajo con LLM (modelos de lenguaje grandes) y agentes.
@@ -15,8 +12,6 @@ Antes de la tecnología dirigí mis propios negocios y operaciones durante 14 a�
 y resultados medibles.
 Trabajo con agentes de programación con IA (Claude Code) para avanzar más rápido. El diseño, las decisiones y la
 revisión son míos.
-
-<div align="center">
 
 [![Portafolio](https://img.shields.io/badge/Portafolio-Sitio_web-22D3EE?style=for-the-badge&logo=github-pages&logoColor=white)](https://duqueom.github.io/ML-MLOps-Portfolio/)
 [![YouTube](https://img.shields.io/badge/Demo-3_min-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/7dFFqq2ROPw)
@@ -44,7 +39,7 @@ agentes de programación con IA me ayudaron a construirlo más rápido.
 
 <p align="center"><img src="https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/gifs/portfolio-demo.gif" alt="Demo del portafolio: los tres servicios de ML, sus tableros y sus predicciones" width="580"></p>
 
-Tres problemas de producción que encontré y resolví:
+Tres problemas que encontré y resolví en pruebas de carga en mis propios clústeres de GKE y EKS:
 
 ```
 81% de errores bajo carga  →  varios workers de uvicorn dentro de Kubernetes. Resuelto con asyncio + un pool de hilos: 81% → 0%
@@ -52,7 +47,7 @@ SHAP devolvía solo ceros   →  TreeExplainer no funciona con StackingClassifie
 El HPA nunca reducía pods  →  HPA por memoria con un modelo que ocupa memoria fija. Resuelto escalando solo por CPU: 3 → 1 pods
 ```
 
-[Leer los reportes de incidentes (en inglés) →](https://duqueom.github.io/ML-MLOps-Portfolio/technical-evidence/)
+[Leer cómo los encontré y los resolví (en inglés) →](https://duqueom.github.io/ML-MLOps-Portfolio/technical-evidence/)
 
 **[read_aloud](https://github.com/DuqueOM/read_aloud)** · una app de texto a voz que uso todos los días<br>
 Lee en voz alta el texto seleccionado en Windows con voces neuronales locales, en español e inglés en el mismo texto,
