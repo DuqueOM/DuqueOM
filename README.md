@@ -30,7 +30,7 @@ First release planned for January 2027.
 **[ML-MLOps-Portfolio](https://github.com/DuqueOM/ML-MLOps-Portfolio)** · three ML services, deployed to GKE and EKS<br>
 Churn prediction, financial sentiment and taxi-demand forecasting, served with FastAPI, Docker and Kubernetes,
 with Terraform, CI/CD, MLflow and monitoring. Deployed to GKE and EKS in March 2026, then shut down to save costs.
-I designed the architecture and made the decisions (18 ADRs); AI coding agents helped me build it faster.
+I designed the architecture and made the decisions (19 ADRs); AI coding agents helped me build it faster.
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/DuqueOM/ML-MLOps-Portfolio/main/docs/media/gifs/portfolio-demo.gif" alt="Portfolio demo: the three ML services, their dashboards and predictions" width="580"></p>
@@ -47,7 +47,7 @@ HPA never scales down      →  memory-based HPA with a fixed ML memory footprin
 
 **[read_aloud](https://github.com/DuqueOM/read_aloud)** · a text-to-speech app I use every day<br>
 Reads selected text aloud on Windows with local neural voices, in Spanish and English in the same text, offline.
-I fine-tuned a Qwen3-TTS voice with LoRA on my own GPU (RTX 5070, 8 GB), chose the training setup and the final
+I fine-tuned a Qwen3-TTS voice with LoRA on my own GPU (RTX 5070 Laptop GPU, 8 GB), chose the training setup and the final
 epoch, and used WavLM to compare voices. 15 ADRs record the decisions. Built with AI coding agents.
 
 <p align="center"><img src="https://raw.githubusercontent.com/DuqueOM/read_aloud/main/docs/media/demo.gif" alt="read_aloud demo: selected text is read aloud and each sentence is highlighted" width="580"></p>
